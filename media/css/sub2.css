@@ -1,0 +1,64 @@
+ .imgBox #bimgBG{display: block; position: fixed; top: 50%; left: 50%; width: auto; min-width: 100%; height: auto; min-height: 100%; transform: translateX(-50%) translateY(-50%); z-index: -100}
+.imgBox .imgTitle{position: absolute; left: 50%; top: 25%; transform: translateX(-50%); text-align: center}
+.imgBox .imgTitle span{color:#fff; font-size: 100px; display: block; text-shadow: 2px 2px 2px rgba(0,0,0,1)}
+
+.down{display: block; position: absolute; left:50%; margin-left: -90px; bottom: 15%; animation:ani 1s infinite  alternate}
+
+@keyframes ani {0% {transform:scale(1); opacity:1; color:#fff} 100% {transform:scale(1.2); opacity:0.8; color:#888}}
+.down img{margin-bottom: 20px}
+.down ul li{text-align: center; font-size: 25px}
+
+#simgBG{position:fixed; left:50%; top:50%; width:auto; min-width:100%; height:auto; min-height:100%; transform:translateX(-50%) translateY(-50%); z-index:-100; display:none}
+
+#content{background: rgba(0,0,0,.8); padding-top: 5%}
+#content h3{font-size: 40px; margin-bottom: 6%; text-align: center}
+#content #gc2 h3{padding-top: 5%}
+/*-------------------------------------------------------------------*/
+.grid-image-item,.grid--images .grid-sizer {width: 33.33%;}
+.grid-image-item {
+  float: left; margin-bottom: 100px
+}
+
+#gc1 .grid-image-item img{
+  display: block;
+    width: 70%; padding-top: 10px; margin-left: 15%
+}
+
+#gc2 .grid-image-item img{
+  display: block;
+    width: 96%;margin: 10px auto;
+}
+
+
+/*-------------------------------------------------------------------*/
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+     .grid-image-item,
+.grid--images .grid-sizer {width: 50%;}
+    .grid-image-item {margin-bottom: 50px}
+    
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    
+    .imgBox .imgTitle span{font-size: 90px}
+    #content h3{font-size: 35px}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px){
+    .grid-image-item,
+.grid--images .grid-sizer {width: 100%;}
+
+    .grid-image-item {margin-bottom: 30px}
+    .imgBox .imgTitle span{font-size: 80px}
+    #content h3{font-size: 30px}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+    .imgBox .imgTitle span{font-size: 60px}
+    #content h3{font-size: 25px}
+}

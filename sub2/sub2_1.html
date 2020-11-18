@@ -1,0 +1,138 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CUCKOO-NEW</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1b49ca1a7.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/sub2_content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    <!--[if IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html"  ?>
+    
+    <div class="lineMap">
+        <span>HOME</span>&gt;<span>제품 소개</span>&gt;<strong>NEW</strong>
+    </div>
+    
+    
+    <? $_GET['num']=1;
+          include "common/sub_nav2.html"; 
+
+     ?>
+        
+        
+
+                
+<!-- 본문 콘텐츠 영역 -->
+      <div class="box"></div>  
+         <article id="content">
+              
+               <div class="title_area">
+                   <h2>NEW</h2>
+                
+               </div>
+
+               <div class="content_area">
+                    <ul>
+                       <li>
+                           <img src="images/content1/new1.jpg" alt="">
+                           <dl>
+                               <dt>크로스컷 블렌더</dt>
+                               <dd>국내 최초 특허기술력 양방향 회전 제품으로<br>
+                                   거품발생이 최소화 됩니다.
+                               </dd>
+                               <dd><a class="openBtn" href="#">
+                                   <i class="fas fa-search-plus"></i></a>
+                               </dd>
+                           </dl>
+                             
+                           <div class="product_con">
+                              <img src="images/content1/new1B.jpg" alt="">     
+                              <p>
+                               크로스컷 블렌더는 원액기와 블렌더의 장점을 모두 갖췄습니다.<br>양방향 분쇄를 통해 잔여물 없이 작은 입자 단위로 블렌딩 되어,
+                               원액기에서 맛 볼 수 있는 부드러운 식감을 그대로 느낄 수 있습니다.<br> 과일, 야채 등의 부드러운 재료만을 사용 가능한 원액기와 달리 단단한 재료도 제한 없이 블렌딩 가능해 활용도가 높습니다.
+                               </p>
+                               <a class="closeBtn" href="#"><i class="far fa-times-circle"></i></a>
+                          </div>
+                       </li>
+
+                        <li>
+                            <img src="images/content1/new2.jpg" alt="">
+                            <dl>
+                                <dt>쿠쿠 에어프라이어</dt>
+                                <dd>감성적인 레트로 디자인으로 어디에나 어울리며<br>
+                                    주방 인테리어에 알맞은 디자인입니다.
+                                </dd>
+                                
+                                   <dd><a class="openBtn" href="#">
+                                       <i class="fas fa-search-plus"></i></a>
+                                   </dd>
+                               
+                            </dl>
+                            <div class="product_con">
+                              <img src="images/content1/new2B.jpg" alt="">     
+                              <p>
+                                최대 200도 고온의 공기를 만들어 빠르고 맛있는 조리가 가능한 고화역 열풍 가열 방식이며, 2중 벽으로 열 손실을 줄여줍니다.<br>바스켓과 트레이를 분리하여 사이사이 깨끗한 세척이 가능하며 조리가 끝난 후 음식물이 늘러붙지 않습니다.<br>손잡이 구조로 되어있어 한 손으로 쉽개 들어 올려 이동이 편리합니다.
+                            </p>
+                               <a class="closeBtn" href="#"><i class="far fa-times-circle"></i></a>
+                          </div>
+                        </li>
+                        
+                        <li>
+                            <img src="images/content1/new3.jpg" alt="">
+                            <dl>
+                                <dt>인 앤 아웃 아이스 10's</dt>
+                                <dd>
+                                    물 속 기포를 제거하는 웨이브 제빙 시스템으로<br>
+                                    얼음 생성 시 보다 단단한 얼음을 생성합니다.
+                                </dd>
+                                
+                                   <dd><a class="openBtn" href="#">
+                                       <i class="fas fa-search-plus"></i></a>
+                                   </dd>
+                               
+                            </dl>
+                             <div class="product_con">
+                              <img src="images/content1/new3B.jpg" alt="">     
+                              <p>
+                                타사 대비 가장 믾은 1일 최대 제빙량을 자랑하는 제품으로, 하루에 아이스 커피 약 96잔의 얼음량을 만들어냅니다.<br>원할 때마다 바로 직수관, 냉수관 코크는 물론 얼음 토출구까지 인앤아웃으로 자동살균합니다.<br>방문 관리 없이 손쉽게 10초 간편 원터치 필터 교체가 가능합니다.
+                            </p>
+                               <a class="closeBtn" href="#"><i class="far fa-times-circle"></i></a>
+                          </div>
+                        </li>
+
+                    </ul>
+               </div>
+               
+       </article>
+          
+       <? include "../common/sub_foot.html"  ?>
+       <script src="js/layer_popup.js"></script>
+
+    
+        
+    
+</body>
+</html>

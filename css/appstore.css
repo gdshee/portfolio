@@ -1,0 +1,16 @@
+.gallery .thumbs-container .swiper-slide {
+	width: 260px;
+	text-align: left;
+}
+.gallery .thumbs-container img {
+	cursor:pointer;
+	width: 250px;
+	margin-right:10px;
+}
+
+
+.bestp .thumbs-container .swiper-slide {
+	width: 250px;
+	text-align: center
+}
+.bestp .thumbs-container .swiper-slide a{display: block; text-decoration: none}

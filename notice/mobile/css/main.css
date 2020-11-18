@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.main{margin-top: 82px}
+.main img{width: 100%;}
+
+.content h3{font-size: 21px; font-weight: 700; margin-bottom: 20px; font-family: 'Roboto', sans-serif; color: #333}
+
+
+.content .product{margin-top: 45px; font-family: 'Roboto', sans-serif; }
+.content .product li{float: left; width:50%; text-align: center; line-height: 1.5em; margin-bottom: 60px; color: #666}
+.content .product ul li:last-of-type img, .content .product ul li p, .content .product h3:last-of-type{padding-left: 10px}
+.content .product ul li img{width: 100%; margin-bottom: 15px}
+.content .product ul{overflow: hidden; margin: 0 10px}
+.content .product p:first-of-type{margin-bottom: 5px}
+.content .product span{font-size: 20px}
+
+.content .gs h3{text-align: center}
+.content .gs ul{margin: 0 10px; font-family: 'Nanum Myeongjo', serif; position: relative}
+.content .gs ul li{line-height: 2em; font-size: 15px; font-weight: 400}
+.content .gs ul li p{text-align: justify; margin: 0 10px; color: #666}
+.content .gs ul li img{width: 100%; margin-bottom: 15px}
+.content .gs span{margin-left: 10px; font-size: 20px}
+
+.gallery{margin-top: 60px}
+.gallery h3{text-align: center}
+
+.faqBox{width: 100%; margin-top: 60px; position: relative; font-family: 'Nanum Gothic', sans-serif; text-align: center}
+.faqContent{border: 2px solid #ead0d0; margin: 0 20px}
+.content .faqBox ul{}
+.content .faqBox ul li{line-height: 2em; font-size: 14px; padding: 10px 0; color: #666}
+.content .faqBox ul li strong{font-size: 15px}
+.content .faqBox ul li p{padding: 10px 10px 0 10px}
+.content .faqBox ul li img{width: 100%}
+.content .faqBox span{font-size: 4px; margin-right: 10px}
+.content .faqBox .dock{padding-bottom: 10px}

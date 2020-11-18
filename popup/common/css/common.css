@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%;}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block;}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 14px;
+  color: #333}
+ol, ul{list-style: none;}
+table{border-collapse: collapse; border-spacing: 0;}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+#skipNav{position:relative;width:100%;overflow:hidden;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+  overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+ display:block;height:auto;padding:15px 0; background:#f2f2f2;}
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/* 헤더 공통 영역 */
+
+#wrap{width:100%; overflow: hidden}
+
+#headerArea{position: relative; border-bottom: 3px solid #e74d27}
+#headerArea .header_inner{width: 1200px; margin: 0 auto}
+
+#headerArea .lgpw{overflow: hidden}
+#headerArea .lgpw ul{overflow: hidden; float: right; margin: 15px 20px 30px 0}
+#headerArea .lgpw ul li{float: left;}
+#headerArea .lgpw ul li:nth-child(1){margin-right: 22px; position: relative}
+#headerArea .lgpw ul li:nth-child(1)::after{content: '|';position: absolute; right:-15px; top:0}
+
+#headerArea .headerlogo{position: absolute; left:50%; top: 40px; margin-left:-65px  }
+0
+#headerArea #gnb{overflow: hidden;}
+#headerArea #gnb ul{overflow: hidden; margin:90px 0 25px 195px}
+#headerArea #gnb ul li{font-size: 20px; font-family: 'Nanum Gothic', sans-serif; font-weight:700; float: left; margin-right: 114px}
+#headerArea #gnb ul li:last-child{margin-right: 0}
+
+
+
+
+/* 푸터 공통 영역 */
+
+#footerArea {background: #f0f0f0; border-top: 3px solid #e74d27}
+#footerArea .footer_inner{width: 1200px; margin: 0 auto}
+#footerArea .footerBox1{overflow: hidden; margin-bottom: 40px} 
+#footerArea .footer_logo{margin: 23px 35px 20px 27px; float: left; width: 150px; }
+#footerArea .footerBox1 ul{overflow: hidden; float: left; margin: 24px 10px 20px 0}
+#footerArea .footerBox1 li{float: left; margin: 0 10px}
+#footerArea .footerBox1 .tos{color: #666; font-size: 18px; margin-right: 250px}
+#footerArea .footerBox1 .list{float: left; overflow: hidden}
+#footerArea .footerBox1 .tos li:nth-of-type(2){border-left: 1px solid #666; border-right: 1px solid #666; padding: 0 10px}
+#footerArea .footerBox1 ul:nth-of-type(2) li{font-size: 1.5em}
+#footerArea .footerBox1 .family{float: left; font-size: 14px; font-family: 'Roboto', sans-serif; font-weight: 500; margin-top: 24px; width: 110px; height: 20px; border: 2px solid #666; background: #fff; text-align: center; padding: 2px 0}
+
+#footerArea .footerBox2{overflow: hidden; padding-bottom: 40px}
+#footerArea .footerBox2 .copy{float: left; line-height: 2em; margin-left: 20px}
+#footerArea .footerBox2 .copy .cuckoo{font-size: 16px}
+#footerArea .footerBox2 p{float: left;font-family: 'Roboto', sans-serif; font-weight: 400; margin: 20px 0 0 20px}
+
+#footerArea .footerBox2 ul{overflow: hidden}
+#footerArea .footerBox2 li{float: left; overflow: hidden}
+#footerArea .footerBox2 li:nth-of-type(1){margin-left: 430px}
+#footerArea .footerBox2 li:nth-of-type(2){margin-left: 20px}
+#footerArea .footerBox2 i{font-size: 40px}
+#footerArea .footerBox2 li span{display: block; font-size: 10px; text-align: center; margin-top: 10px}
+
+
+
+
+
+
+
+
+
+
+

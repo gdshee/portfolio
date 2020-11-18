@@ -1,0 +1,21 @@
+.main{margin-top: 82px; position: relative}
+.main img{width: 100%; border: 0}
+
+.main .visual_text{text-align: center; position: absolute; top: 30%; color: #fff; width: 100%}
+.main h3{margin-bottom: 10px; font-size: 18px; font-family: 'Nanum Gothic', sans-serif; font-weight:400}
+.main h3::after{content: '';background: #fff; width: 50px; height: 1px; position: absolute; top: 28px; left: 50%; margin-left: -25px;}
+.main p{margin-top: 20px; font-family: 'Nanum Myeongjo', serif; font-weight:400; line-height: 1.7em}
+
+#content .title_area{text-align: center}
+#content .title_area h2{margin-bottom: 50px; font-size: 25px; font-weight: 700; margin-top: 40px; font-family: 'Nanum Gothic', sans-serif}
+
+#content .content_area{position: relative; margin-bottom: 100px}
+#content .content_area #map{width: 90%; height: 300px; position: relative; margin-left: 5%; overflow: hidden}
+table{margin-left: 5%; margin-top: 50px; width: 90%; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; border-top: 2px solid #666; text-align: center}
+tr{border-bottom: 1px solid #ccc; display: block}
+tr:last-child{border-bottom: 2px solid #ccc; display: block}
+th{padding: 15px 0 10px 0; font-size: 16px; display: block}
+td{padding: 10px 0 20px 0; line-height: 2em; display: block;}
+td span{padding: 0 5px; font-weight: bold}
+td i:first-child{color: forestgreen;}
+td i:last-of-type{color: dodgerblue}

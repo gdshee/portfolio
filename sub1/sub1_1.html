@@ -1,0 +1,79 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CUCKOO-CEO 인사말</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1b49ca1a7.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    <!--[if IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html"  ?>
+             
+    <div class="lineMap">
+        <span>HOME</span>&gt;<span>기업 소개</span>&gt;<strong>CEO 인사말</strong>
+     </div>
+            
+    <? $_GET['num']=1;
+          include "common/sub_nav1.html"; 
+
+     ?>
+
+
+       
+           
+<!-- 본문 콘텐츠 영역 -->
+        
+         <article id="content">
+              
+               <div class="title_area">
+                   <h2>CEO 인사말</h2>
+                   <img src="images/content1/ceo.png" alt="대표이사 이미지">
+                   <p>쿠쿠전자(주) 대표이사 <span>구본학</span></p>
+               </div>
+
+               <div class="content_area">
+                   <strong>고객 여러분의 가장 행복한 시간은 언제인가요?</strong><br>
+                   <br><p>저는 어린 시절, 마음껏 뛰어 놀다 집에 돌아와 배가 고프다고 한껏 칭얼대다가도 부엌에서 어머니가 요리하는 소리와 
+                   <br>고소한 밥짓는 냄새가 나면 짜증이 슬그머니 가라앉고 얌전해져 설레는 마음으로 맛있는 식사를 기다렸던 기억이 납니다.<br>
+                   <br>세상이 아무리 변해도 우리를 행복하게 해주는 것은 이런 작은 생활의 행복이라고 생각합니다.<br>
+                   <br><span>"쿠쿠하세요"</span> 라는 쿠쿠의 목소리는 따뜻한 밥으로 위안을 주는 어머니처럼, 사랑을 듬뿍 담은 아내처럼, 
+                   <br>항상 곁에서 행복을 주는 소중한 친구가 되어주고 있습니다.<br>
+                   <br>쿠쿠가 원하는 것은 이런 것입니다. 가장 많이 파는 기업보다, 가장 큰 행복을 주는 기업이고 싶습니다.<br>
+                   <br>언제나 고객님의 곁에서 행복을 주는 친구가 되었다고 자부합니다.
+                   <br>앞으로도 맛있는 밥과 더불어 건강한 물, 청결한 위생으로 고객님의 건강한 생활을 책임지는 좋은 친구가 되겠습니다.<br>
+                   <br>국내를 넘어 세계인의 마음을 사로잡아 한국을 대표하는 기업이 되는 모습, 함께 지켜봐 주시고 응원해주십시오.
+                   <br>고객님의 더 큰 행복을 위해 노력하겠습니다.<br>
+                   <br>종합생활가전 쿠쿠로, 언제나 곁에서 함께 하겠습니다.</p>
+               </div>
+               
+       </article>
+          
+
+      <? include "../common/sub_foot.html"  ?>
+        
+    
+</body>
+</html>

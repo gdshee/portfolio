@@ -1,0 +1,29 @@
+.title_area{width: 1200px; margin: auto; font-family: 'Nanum Gothic', sans-serif}
+#content .title_area h2{margin-bottom: 120px}
+.title_area ul{overflow: hidden; width: 1000px; margin: auto; font-family: 'Roboto', sans-serif; margin-bottom: 150px}
+.title_area ul li{width: 25%; float: left; text-align: center}
+.title_area ul li a{display: block; padding: 15px 0; font-size: 18px; font-weight: 600; border-top: 2px solid #97CFDE; border-bottom: 2px solid #97CFDE; color: #333}
+.title_area ul li a:hover{font-weight: bold; letter-spacing: -1px; background: #97CFDE; color: #fff}
+
+.content_area ul{text-align: center; margin-left: 160px; font-family: 'Nanum Gothic', sans-serif; color: #666; width: 1200px}
+.content_area ul li dl{border: 1px solid #ccc; width: 850px; margin-bottom: 150px;}
+.content_area ul li dl dt{font-family: 'Roboto', sans-serif; color: #333; font-size: 38px; font-weight: 800; margin: 30px 0 50px 0}
+.content_area ul li dl dd p{margin-bottom: 70px; font-size: 20px; line-height: 2em}
+.content_area ul li dl dd img{margin-bottom: 50px}
+
+.sns li:first-child{margin-left: -350px} 
+.sns li:first-child h3{margin-bottom: 30px; font-size: 38px; font-weight: 800; color: #333; font-family: 'Roboto', sans-serif;}
+.sns li:first-child p{margin-bottom: 100px; color: #666; font-weight: 400; font-size: 20px; font-family: 'Nanum Gothic', sans-serif;}
+
+
+.sns p{font-family: 'Roboto', sans-serif; color: #333; font-size: 22px; font-weight: 800; margin-bottom: 20px}
+.sns p i{margin-bottom: 12px}
+.sns{margin-bottom: 180px; overflow: hidden}
+
+.snsContent1{border: 1px solid #ccc; padding: 10px 15px; width: 380px; height: 600px; font-size: 20px; text-align: center; float: left}
+.snsContent1 iframe{border: 1px solid #ccc; width: 360px; height: 500px; overflow: auto; font-size: 20px}
+.snsContent1 p i{color: #3C599F}
+
+.snsContent2 {border: 1px solid #ccc; padding: 10px 15px; width: 380px; height: 600px; font-size: 20px; float: right; margin-right: 345px}
+.snsContent2 p i{color: #1DA1F3}
+.twitter{border: 1px solid #ccc; overflow: auto; height: 500px; width: 360px; margin-left: 10px}

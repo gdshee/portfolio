@@ -1,0 +1,20 @@
+body{font-size:12px; font-family: "돋움"; margin: 0 auto; background: #f5f5f5}
+
+.member_tab{padding: 30px 0;border-top: 1px solid #333}
+.member_tab a{font-size: 24px;padding: 10px;margin: 0 10px;color: #aaa;}
+.member_tab a.on{color: #000;border-bottom: 2px solid #000;font-weight: bold}
+.member_tab span{font-size: 24px;padding: 10px;margin: 0 10px;color: #000;font-weight: bold}
+
+.join{text-align: left}
+.join h4{font-size: 15px; margin-top: 30px}
+.join h4:first-child{margin-top: 10px}
+.join .button{text-align: center; margin-top: 30px}
+.join .button .ok,.join .button button{display: inline-block;width: 150px;line-height: 24px;padding: 8px 0;border: none; background: #595754; color: #fff;font-size: 14px;cursor: pointer; text-decoration: none}
+.join .button .cancel{display: inline-block;width: 150px;line-height: 24px;padding: 8px 0;border: none;background: #999;color: #fff;font-size: 14px;cursor: pointer}
+
+#hbox{margin-left: 175px; padding: 30px 0}
+#hbox h1 a{display: block; width: 250px; height: 37px; text-indent: -999px; overflow: hidden; background: url(../images/logo.png)}
+.sub_cont_wrap{width: 600px; margin: 0 auto}
+.join .policy {padding: 10px; overflow-y: scroll; height: 12px; margin: 10px 0; border: 1px solid #ddd; background: #fff}
+.join .ac{text-align: center; margin-left: 148px}
+.join .ac a{color: #fff; background: #e74d27; width: 304px; padding: 15px 0; margin: 50px 0 30px 0; display: block; text-decoration: none}

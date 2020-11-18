@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 14px;
+  color: #333}
+ol, ul{list-style: none}
+table{border-collapse: collapse; border-spacing: 0}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+#skipNav{position:relative;width:100%;overflow:hidden}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+  overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:16px}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+ display:block;height:auto;padding:15px 0; background:#f2f2f2}
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+/* 헤더 공통 영역 */
+
+#wrap{width:100%; overflow: hidden; position: relative}
+
+#headerArea{position:fixed; z-index: 50; border-bottom: 3px solid #e74d27; width:100%; background: #fff}
+#headerArea .header_inner{width: 1200px; margin: 0 auto}
+
+#headerArea .lgpw{overflow: hidden}
+#headerArea .lgpw ul{overflow: hidden; float: right; margin: 15px 20px 30px 0}
+#headerArea .lgpw ul li{float: left}#headerArea .lgpw ul li:nth-child(1){margin-right: 22px; position: relative}
+#headerArea .lgpw ul li:nth-child(1)::after{content: '|';position: absolute; right:-15px; top:0}
+
+#headerArea .headerlogo{position: absolute; left:50%; top: 40px; margin-left:-65px}
+#headerArea .headerlogo a{display: block; width: 130px; height: 19px;
+    text-indent: -999px; overflow: hidden; background: url(../images/logo.png)}
+
+
+/* 공통 gnb 영역 */
+
+	#gnb{clear:both;width:1000px;margin: 0 auto; padding-top:50px;
+       font-family: 'Nanum Gothic', sans-serif} 
+	
+	#gnb ul.dropdownmenu{float:left; }
+	#gnb ul.dropdownmenu li.menu{position:relative;float:left;width:200px;text-align: center}
+	#gnb ul.dropdownmenu li h3{width:200px}
+	
+    #gnb ul.dropdownmenu li a.depth1{display:block;padding: 20px 0; font-size: 20px}
+	
+
+	#gnb ul.dropdownmenu li ul{width:200px; position:absolute; top:63px; left:0; padding:5px 0 30px; height: 130px; display:none}
+
+	#gnb ul.dropdownmenu li ul li{text-align:center; font-weight:bold}
+	#gnb ul.dropdownmenu li ul li a{color:#333; text-decoration:none; display: block; padding: 5px 0; transition: all .5s; font-weight: bold; font-family: 'Nanum Gothic', sans-serif}
+	#gnb ul.dropdownmenu li ul li a:hover{color:#fff; background: #e74d27; text-decoration:none; border-radius: 30px}
+
+
+/* 상단 탑 메뉴 공통 */
+
+       .topMove{display:block; width: 48px; height: 48px; background: #e74d27; position: fixed; left:50%; margin-left: 750px; bottom:300px}
+       .topMove span{font-family: 'Roboto', sans-serif; font-weight: bold; color: #fff; display: block; text-align: center; padding-top: 3px}
+       .topMove span strong{font-size: 10px; padding-bottom: 1.5px}
+
+
+/* 푸터 공통 영역 */
+
+#footerArea {background: #f0f0f0; border-top: 3px solid #e74d27}
+#footerArea .footer_inner{width: 1200px; margin: 0 auto}
+#footerArea .footerBox1{float: left; margin-bottom: 20px} 
+#footerArea .footer_logo{margin: 23px 35px 20px 27px; float: left; width: 120px; }
+#footerArea .footerBox1 ul{overflow: hidden; float: left; margin: 24px 10px 20px 0}
+#footerArea .footerBox1 .list>ul li{float: left; margin: 0 10px}
+#footerArea .footerBox1 .tos{color: #666; font-size: 18px; margin-right: 250px}
+#footerArea .footerBox1 .list{float: left}
+#footerArea .footerBox1 .tos li:nth-of-type(2){border-left: 1px solid #666; border-right: 1px solid #666; padding: 0 20px}
+#footerArea .footerBox1 ul:nth-of-type(2) li{font-size: 23px}
+#footerArea .footerBox1 ul:nth-of-type(2) li:hover{opacity: 0.7}
+
+
+#footerArea .footerBox1 .family{float: left; font-size: 14px; font-family: 'Roboto', sans-serif; font-weight: 500; margin-top: 18px; width: 110px; height: 20px; border: 2px solid #666; background: #fff; text-align: center; padding: 2px 0; position: relative}
+#footerArea .footerBox1 .family .arrow{display:block; font-size:1em; padding-left: 3px}
+#footerArea .footerBox1 .family .arrow:hover{color:#666}
+#footerArea .footerBox1 .family .aList{position:absolute; top:25px; left:-2px; width:112px; border: 1px solid #666; display:none; margin: 0; background: #fff}
+#footerArea .footerBox1 .family .aList li{line-height:1.5em; border-bottom:1px solid #ccc}                         
+#footerArea .footerBox1 .family .aList li a{display: block; padding: 1px 0; text-align: center; font-size: 11px}
+#footerArea .footerBox1 .family .aList li a:hover{background:#F0F0F0; color:#666}
+
+
+#footerArea .footerBox2{clear:both; overflow: hidden; padding-bottom: 50px}
+#footerArea .footerBox2 .copy{float: left; line-height: 2em; margin-left: 20px}
+#footerArea .footerBox2 .copy .cuckoo{font-size: 16px}
+#footerArea .footerBox2 p{float: left; font-family: 'Roboto', sans-serif; font-weight: 400; margin: 20px 0 0 20px}
+
+#footerArea .footerBox2 ul{overflow: hidden; text-align: center; margin-top: 20px}
+#footerArea .footerBox2 li{float: left; overflow: hidden}
+#footerArea .footerBox2 li:nth-of-type(1){margin-left: 470px}
+#footerArea .footerBox2 li:nth-of-type(2){margin-left: 20px}
+#footerArea .footerBox2 i{font-size: 40px}
+#footerArea .footerBox2 li span{display: block; font-size: 10px; margin-top: 10px}
+
+
+
+.text{position: fixed; right:0; top: 0;
+           font-size: 50px; z-index: 10000}
+
+
+
+
+
+
+

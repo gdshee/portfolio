@@ -1,0 +1,19 @@
+.content_area ul {overflow: hidden; width: 1200px; font-family: 'Nanum Gothic', sans-serif; margin: 0 auto}
+.content_area ul li{padding: 150px 0}
+.content_area ul .L{float: left}
+.content_area ul .R{float: right}
+.content_area ul li .R{margin-left: 100px}
+.content_area ul li .L{margin-right: 100px}
+.content_area ul li .R .recepi li{margin-left: 17px}
+.content_area ul li .L .recepi li{margin-left: 17px}
+.content_area ul li .R .recepi{clear: both; width: 570px}
+.content_area ul li dl{border-top: 2px solid #F9C205; border-bottom: 2px solid #F9C205; width: 570px}
+.content_area ul li dl dt{font-size: 20px; font-weight: 700; margin: 40px 0}
+.content_area ul li dl dd{line-height: 2em;font-size: 16px; padding-bottom: 15px}
+.content_area ul li dl dd .recepi{margin-bottom: 30px; list-style: decimal}
+.content_area ul li dl dd .recepi li{padding: 10px 0}
+.content_area ul li dl dd i{font-size: 35px}
+.content_area ul li dl dd .R{margin-bottom: 30px}
+.content_area ul li div{margin-top: 50px}
+.content_area ul li div span{font-size: 18px; font-weight: 800;}
+.content_area ul li div p{margin-top: 20px; line-height: 2em; font-size: 16px}

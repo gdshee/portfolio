@@ -1,0 +1,97 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CUCKOO-쿠쿠 갤러리</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1b49ca1a7.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/sub3_content3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    <!--[if IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html"  ?>
+      
+    <div class="lineMap">
+        <span>HOME</span>&gt;<span>커뮤니티</span>&gt;<strong>쿠쿠 갤러리</strong>
+    </div>    
+       
+    <? $_GET['num']=3;
+          include "common/sub_nav3.html"; 
+
+     ?>
+     
+    
+        
+
+                
+<!-- 본문 콘텐츠 영역 -->
+        
+         <article id="content">
+              
+               <div class="title_area">
+                   <h2>쿠쿠 갤러리</h2>
+               </div>
+               
+               <div class="content_area">
+               
+                   <div class="fancyBox">
+
+                       <ul>
+                          <li><a rel="fancybox" href="images/content3/GALLERY1.jpg"><img src="images/content3/GALLERYs1.jpg" alt="갤러리 사진1"></a></li>
+                          <li><a rel="fancybox" href="images/content3/GALLERY2.jpg"><img src="images/content3/GALLERYs2.jpg" alt="갤러리 사진2"></a></li>
+                          <li><a rel="fancybox" href="images/content3/GALLERY3.jpg"><img src="images/content3/GALLERYs3.jpg" alt="갤러리 사진3"></a></li>
+                          <li><a rel="fancybox" href="images/content3/GALLERY4.jpg"><img src="images/content3/GALLERYs4.jpg" alt="갤러리 사진4"></a></li>
+                          <li><a rel="fancybox" href="images/content3/GALLERY5.jpg"><img src="images/content3/GALLERYs5.jpg" alt="갤러리 사진5"></a></li>
+                          <li><a rel="fancybox" href="images/content3/GALLERY6.jpg"><img src="images/content3/GALLERYs6.jpg" alt="갤러리 사진6"></a></li>
+                          <li><a rel="fancybox" href="images/content3/GALLERY7.jpg"><img src="images/content3/GALLERYs7.jpg" alt="갤러리 사진7"></a></li>
+                          <li><a rel="fancybox" href="images/content3/GALLERY8.jpg"><img src="images/content3/GALLERYs8.jpg" alt="갤러리 사진8"></a></li>
+                          <li><a rel="fancybox" href="images/content3/GALLERY9.jpg"><img src="images/content3/GALLERYs9.jpg" alt="갤러리 사진9"></a></li>
+                          <li><a rel="fancybox" href="images/content3/GALLERY10.jpg"><img src="images/content3/GALLERYs10.jpg" alt="갤러리 사진10"></a></li>  
+                          <li><a rel="fancybox" href="images/content3/GALLERY11.jpg"><img src="images/content3/GALLERYs11.jpg" alt="갤러리 사진11"></a></li>
+                          <li><a rel="fancybox" href="images/content3/GALLERY12.jpg"><img src="images/content3/GALLERYs12.jpg" alt="갤러리 사진12"></a></li>
+                       </ul>
+        
+                  </div> 
+                
+               </div>
+               
+       </article>
+          
+       <? include "../common/sub_foot.html"  ?>
+    
+     
+    <link rel="Stylesheet" href="../sub3/js/fancybox/jquery.fancybox-1.3.4.css">
+       
+    <script src="http://code.jquery.com/jquery-1.7.js"></script>
+    <script src="../sub3/js/fancybox/jquery.fancybox-1.3.4.js"></script>
+    <script src="../sub3/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script src="../sub3/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+    
+    <script>
+        $(document).ready(function () {$('.fancyBox a').fancybox();});
+    </script>
+    
+    
+</body>
+</html>

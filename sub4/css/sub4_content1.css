@@ -1,0 +1,19 @@
+.content_area {overflow: hidden; width: 1000px; margin: 0 auto; padding-bottom: 200px}
+
+.content_area .con{height: 1030px; width: 920px; border: 1px solid #ccc; margin: 0 auto; text-align: center; font-family: 'Nanum Gothic', sans-serif; position: relative}
+.content_area .main iframe {width: 800px; height: 450px; padding-top: 50px}
+
+.content_area .main dl{display: none}
+
+.content_area .main dt{font-size: 34px; font-weight: 800; padding: 55px}
+.content_area .main dt::after{content: ''; border-bottom: 1px solid #ccc; width: 700px; position: absolute; left: 10%; top: 600px; margin-top: 30px}
+.content_area .main dd{font-size: 18px; padding-top: 20px; line-height: 2em}
+.content_area .main dd strong{font-size: 18.4px}
+
+.content_area .sub{width: 920px; height: 220px; overflow: hidden; display: block; position: relative; margin: 120px 0 150px 0}
+.content_area .sub iframe{width: 230px; height: 130px}
+
+.content_area .sub li:first-of-type{float: left; margin-left: 50px}
+.content_area .sub li:nth-of-type(2){float: left; margin-left: 64px}
+.content_area .sub li:last-of-type{position: absolute; top: 0; right: 50px}
+.content_area .sub li p{margin-top: 20px;}

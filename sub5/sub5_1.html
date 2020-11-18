@@ -1,0 +1,237 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CUCKOO-Global Service</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1b49ca1a7.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/sub5_content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    
+    <!--[if IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html"  ?>
+      
+    <div class="lineMap">
+        <span>HOME</span>&gt;<span>고객센터</span>&gt;<strong>Global Service</strong>
+    </div>  
+       
+    <? $_GET['num']=1;
+          include "common/sub_nav5.html"; 
+
+     ?>
+        
+        
+
+                
+<!-- 본문 콘텐츠 영역 -->
+        
+         <article id="content">
+              
+               <div class="title_area">
+                   <h2>Global Service</h2>
+                      <div class="subNav">
+                           <ul>
+                               <li><h3><a href="#USA">USA</a></h3></li>
+                               <li><h3><a href="#CANADA">CANADA</a></h3></li>
+                               <li><h3><a href="#VIETNAM">VIETNAM</a></h3></li>
+                               <li><h3><a href="#Australia">Australia</a></h3></li>
+                               <li><h3><a href="#INDONESIA">INDONESIA</a></h3></li>
+                               <li><h3><a href="#CHINA">CHINA</a></h3></li>
+                               <li><h3><a href="#RUSSIA">RUSSIA</a></h3></li>
+                               <li><h3><a href="#NewZealand">New Zealand</a></h3></li>
+                           </ul>
+                      </div>
+                   </div>
+                   
+               <div class="content_area"> 
+                   <ul>
+                       <li class="L">
+                           <dl>
+                               <dt id="USA">USA</dt>
+                               <dd class="L">
+                                   <img src="images/content1/la.jpg" alt="LA 이미지"><br>
+                                   City: LA<br>
+                                   Address: 1137 E. 1st ST LOS ANGELES CA 90033<br>
+                                   Tel: 1-323-780-8808<br>
+                                   Fax: 1-323-780-0244<br>
+                                   Language: KOREAN, ENGLISH<br>
+                                   Working Hours: Mon~Fri - AM09:00~PM6:00 (Public Holiday Exc)<br>
+                                   Remark: Warranty Service Acceptable for Korean local purchased products.<br>
+                                   (Service fees may charged, please check overseas warranty policies in prior to inquiry)<br>
+                                </dd>   
+                                <dd class="R">
+                                   <img src="images/content1/ny.jpg" alt="NEW YORK 이미지"><br>
+                                   City: NEW YORK<br>
+                                   Address: 5-48 46th Rd. Long Island City, NY 11101<br>
+                                   Tel: 718-888-9144<br>
+                                   Fax: 718-888-0983<br>
+                                   Language: KOREAN, ENGLISH<br>
+                                   Working Hours: Mon~Fri - AM09:00~PM6:00 (Public Holiday Exc)<br>
+                                   RemarkWarranty Service Acceptable for Korean local purchased products.<br>
+                                   (Service fees may charged, please check overseas warranty policies in prior to inquiry)
+                               </dd>
+                           </dl>
+                       </li>
+                       <li class="L">
+                           <dl>
+                               <dt id="CANADA">CANADA</dt>
+                               <dd class="L">
+                                    <img src="images/content1/VANCOUVER.jpg" alt="VANCOUVER 이미지"><br>
+                                    City: VANCOUVER<br>
+                                    Address: 945 Lougheed hwy Coquitlam BC Canada V3k 3T4<br>
+                                    Tel: 604-540-1004 / 604-523-1004<br>
+                                    Fax: 604-525-0007<br>
+                                    Language: KOREAN, ENGLISH<br>
+                                    Working Hours: Mon~Fri - AM09:00~PM6:00 (Public Holiday Exc)<br>
+                                    Remark: Warranty Service Acceptable for Korean local purchased products.<br>
+                                    (Service fees may charged, please check overseas warranty policies in prior to inquiry)
+                              </dd>
+                               <dd class="R">
+                                   <img src="images/content1/TORONTO.jpg" alt="TORONTO 이미지"><br>
+                                    City: TORONTO<br>
+                                    Address: #D8-7398 YONGE STREET THORNHILL ONTARIO CANADA L4J 8J2<br>
+                                    Tel: 905-707-8224 / 416-878-4561<br>
+                                    Fax: 905-707-5321<br>
+                                    Language: KOREAN, ENGLISH<br>
+                                    Working Hours: Mon~Fri - AM09:00~PM6:00 (Public Holiday Exc)<br>
+                                    Remark: Warranty Service Acceptable for Korean local purchased products.<br>
+                                    (Service fees may charged, please check overseas warranty policies in prior to inquiry) 
+                               </dd>
+                           </dl>
+                       </li>
+                       <li class="L">
+                           <dl>
+                               <dt id="VIETNAM">VIETNAM</dt>
+                               <dd class="L">
+                                <img src="images/content1/Hanoi.jpg" alt="Hanoi 이미지"><br>
+                                City: Hanoi<br>
+                                Address: NO.54, Nguyen Thi Dinh, Trung Hoa, Cau Giay, Hanoi<br>
+                                Tel: +84 24 3555 2035<br>
+                                Language: VIETNAMESE, KOREAN<br>
+                                Working Hours: AM 10:00 ~ PM20:00 (National Holiday Exc)<br>
+                                Remark: Warranty for Korean local purchased products<br>
+                              </dd>
+                               <dd class="R">
+                                    <img src="images/content1/Da_Nang.jpg" alt="Da Nang 이미지"><br>
+                                    City: Da Nang<br>
+                                    Address: 78 Truong Chi Cuong str., Hai Chau Dist., Danang<br>
+                                    Tel: +84 23 63626880<br>
+                                    Language: VIETNAMESE<br>
+                                    Working Hours: Mon~Fri - AM08:00~PM5:00 (National Holiday Exc)<br>
+                                    Remark: Warranty for local purchased products
+                               </dd>
+                           </dl>
+                       </li>
+                       <li class="L">
+                           <dl>
+                               <dt id="Australia">Australia</dt>
+                               <dd class="L">
+                                            <img src="images/content1/Sydney.jpg" alt="Sydney 이미지"><br>
+                                            City: Sydney<br>
+                                            Address: 27 Unara Lane Campsie NSW 2194<br>
+                                            Tel: 61-2-9787-3900<br>
+                                            Fax: 61-2-9787-3988<br>
+                                            Language: KOREAN, ENGLISH<br>
+                                            Working Hours: Mon~Sat - AM09:30~PM5:00
+                              </dd>
+                               <dd class="R">
+                                            <img src="images/content1/Melbourne.jpg" alt="Melbourne 이미지"><br>
+                                            City: Melbourne<br>
+                                            Address: 15 Meriton Place Clayton VIC 3169<br>
+                                            Tel: 61-3-8510-2146<br>
+                                            Language: KOREAN, ENGLISH<br>
+                                            Working Hours: Mon~Sat - AM9:30~PM5:00
+                          </dd>
+                           </dl>
+                       </li>
+                       <li class="L">
+                           <dl>
+                               <dt id="INDONESIA">INDONESIA</dt>
+                               <dd class="L">
+                                                <img src="images/content1/JAKARTA.jpg" alt="JAKARTA 이미지"><br>
+                                                City: JAKARTA<br>
+                                                Address: MGH Bldg 3F Jl Senayan No 43 Blok S Kebayoran Baru Jakarta Selatan Indonesia<br>
+                                                Tel: +62 (0)21 722 2214<br>
+                                                Language: KOREAN, INDONESIAN<br>
+                                                Working Hours: Mon~Fri - AM08:30~PM5:00 / Sat: AM08:30~PM3:00
+                          </dd>
+                           </dl>
+                       </li>
+                       <li class="R">
+                           <dl>
+                               <dt id="CHINA">CHINA</dt>
+                               <dd class="R"><img src="images/content1/BEIJING.jpg" alt="BEIJING 이미지"><br>
+                                                Region: BEIJING<br>
+                                                Address: 北京市朝阳区望京广顺南大街东亚望京中心B座1011<br>
+                                                Tel: +86 (0)10 84786939<br>
+                                                Working Hours: Mon~Sat - AM08:00~PM5:00<br>
+                                                Language: KOREAN, CHINESE<br>
+                                                RemarkK: orean domestic product acceptable
+                                </dd>
+                           </dl>
+                       </li>
+                       <li class="L">
+                           <dl>
+                               <dt id="RUSSIA">RUSSIA</dt>
+                               <dd class="L">
+                                    <img src="images/content1/RUSSIA.jpg" alt="RUSSIA 이미지"><br>
+                                    City: MOSCOW<br>
+                                    Address: OFFICE 5, VAVILOVA STR., 83, MOSCOW, 117335, RUSSIA<br><br>
+                                    Tel: 7-495-988-8680<br>
+                                    Fax: 7-495-988-8681<br>
+                                    Language: KOREAN, RUSSIAN<br>
+                                    Working Hours: Mon~Sat - AM09:30~PM5:00
+                               </dd>
+                           </dl>
+                       </li>
+                       <li class="R">
+                           <dl>
+                               <dt id="NewZealand">New Zealand</dt>
+                               <dd class="R"> 
+                                                <img src="images/content1/auckland.jpg" alt="Auckland 이미지"><br>
+                                                City: Auckland<br>
+                                                Address: 2/48 Ellice Road, Glenfield, Auckland<br>
+                                                Tel: 64-9-444-9114<br>
+                                                Fax: 64-9-444-9115<br>
+                                                Language: KOREAN, ENGLISH, CHINESE<br>
+                                                Working Hours: Mon~Fri - AM10:00~PM5:00
+
+                               </dd>
+                           </dl>
+                       </li>
+                   </ul>
+               
+               </div>
+               
+       </article>
+         
+          
+       <? include "../common/sub_foot.html"  ?>
+       
+    <script src="../sub5/js/stickyMenu.js"></script>
+        
+    
+</body>
+</html>

@@ -1,0 +1,205 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CUCKOO-쿠쿠 레시피</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1b49ca1a7.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/sub3_content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    <!--[if IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html"  ?>
+      
+    <div class="lineMap">
+         <span>HOME</span>&gt;<span>커뮤니티</span>&gt;<strong>쿠쿠 레시피</strong>
+    </div> 
+       
+    <? $_GET['num']=1;
+          include "common/sub_nav3.html"; 
+
+     ?>
+     
+           
+        
+
+                
+<!-- 본문 콘텐츠 영역 -->
+        
+         <article id="content">
+              
+               <div class="title_area">
+                   <h2>쿠쿠 레시피</h2>
+                
+               </div>
+               
+
+               <div class="content_area">
+                
+                <ul>
+                   <li class="qa hide L">
+                       <img src="images/content1/recepi1.jpg" alt="그린 샐러드 비빔밥 이미지">
+                       <dl class="q R">
+                           <dt>그린 샐러드 비빔밥</dt>
+                           <dd> 일반재료: 식힌 밥 1인분, 샐러드 채소, 아보카도 1/2개, 수란 1개, 닭고기 3조각<br>
+                                <br>양념재료: 고추장 1t, 간장 1t, 레몬즙 1t, 참기름 약간, 볶은 깨 적당량<br>
+                                <br>사용제품: 쿠쿠 밥솥<br>
+                                <br><a class="trigger R" href="#none1"><i class="far fa-arrow-alt-circle-down"></i></a>
+                           </dd>
+                           <dd>
+                               <ol class="recepi">
+                                   <li>쌀을 씻은 뒤, 30분간 불립니다.</li>
+                                   <li>쿠쿠 밥솥으로 밥을 지은 뒤, 완성이 되면 밥을 꺼내 식혀줍니다.</li>
+                                   <li>채소는 먹기 좋게 자르고, 아보카도는 한 입 크기로 썹니다.</li>
+                                   <li>그릇에 고추장, 간장, 레몬즙, 참기름을 넣고 섞어, 레몬 고추장 소스를 만듭니다.</li>
+                                   <li>그릇에 식힌 밥을 넣고 자른 채소와 아보카도를 넣어줍니다.</li>
+                                   <li>그 위에 수란과 닭고기를 올려줍니다.</li>
+                                   <li>입맛에 따라 레몬 고주창 소스를 뿌리고 비벼주면 완성입니다.</li>
+                               </ol>
+                           </dd>
+                       </dl>
+                   </li>
+                   
+                   <li class="qa hide R">
+                       <img src="images/content1/recepi2.jpg" alt="봄부추 전복밥 이미지">
+                       <dl class="q L">
+                               <dt>봄부추 전복밥</dt>
+                               <dd> 일반재료: 쌀 2컵, 전복 4개, 표고버섯 3개, 은행 10알<br>참기름 1큰술, 밥물 1+1/2컵<br>
+                                    <br>양념재료: 영양부추 1/4줌, 청양고추 1개, 간장 3큰술, 참기름 1큰술<br>
+                                    <br>사용제품: 쿠쿠 밥솥<br>
+                                    <br><a class="trigger" href="#none2"><i class="far fa-arrow-alt-circle-down"></i></a>
+                               </dd>
+                               <dd>
+                                   <ol class="recepi">
+                                       <li>쌀을 씻은 뒤, 30분간 불립니다.</li>
+                                       <li>전복을 손질한후 초기잡내 제거를 한 뒤, 내장을 분리합니다.</li>
+                                       <li>전복살은 칼집을 내주고 내장은 다져줍니다.</li>
+                                       <li>불린쌀, 내장, 맛술, 참기름을 넣고 볶습니다.</li>
+                                       <li>쌀이 조금 익으면 물을 넣고 전복살을 올리고 쿠쿠 밥솥에 밥을 짓습니다.</li>
+                                       <li>밥이 되는 동안 봄부추 양념장을 만듭니다.</li>
+                                       <li>전복장과 봄부추 양념장을 비벼주면 완성입니다.</li>
+                                   </ol>
+                               </dd>
+                       </dl>
+                       </li>
+                   
+                   <li class="qa hide L">
+                       <img src="images/content1/recepi3.jpg" alt="햄채소 머핀 이미지">
+                       <dl class="q R">
+                               <dt>햄채소 머핀</dt>
+                               <dd> 일반재료: 계란, 햄, 당근, 양파, 우유, 밀가루, 버터<br>
+                                    <br>양념재료: 설탕 5큰술, 소금 1큰술<br>
+                                    <br>사용제품: 쿠쿠 밥솥<br>
+                                    <br><a class="trigger R" href="#none3"><i class="far fa-arrow-alt-circle-down"></i></a>
+                               </dd>
+                               <dd>
+                                       <ol class="recepi">
+                                           <li>실온의 말랑한 버터를 풀어준 뒤, 설탕과 섞어줍니다.</li>
+                                           <li>다 섞어준 뒤, 실온의 계란을 넣고 함께 섞어줍니다.</li>
+                                           <li>체애 가루류를 넣고 내린 뒤, 섞어줍니다.</li>
+                                           <li>다진 햄, 당근, 양파를 넣고 섞다가 우유를 넣고 질기를 맞춰줍니다.</li>
+                                           <li>머핀틀에 반죽을 담고 쿠쿠 밥솥에 넣어줍니다.</li>
+                                           <li>만능찜 기능 조리 시간 60분을 선택해 취사를 해줍니다.</li>
+                                           <li>조리가 완료된 머핀을 식혀주면 완성입니다.</li>
+                                       </ol>
+                               </dd>
+                       </dl>
+
+                   </li>
+                   <li class="qa hide R">
+                       <img src="images/content1/recepi4.jpg" alt="팥 우유 찜 케이크 이미지">
+                       <dl class="q L">
+                                       <dt>팥 우유 찜 케이크</dt>
+                                       <dd> 일반재료: 중력분 100g, 베이킹파우더 1/4t, 우유 100g, 팥배기<br>
+                                            <br>양념재료: 설탕 3T, 소금 조금<br>
+                                            <br>사용제품: 쿠쿠 밥솥<br>
+                                            <br><a class="trigger" href="#none4"><i class="far fa-arrow-alt-circle-down"></i></a>
+                                       </dd>
+                                       <dd>
+                                           <ol class="recepi">
+                                               <li>가루류를 채에 쳐서 준비해둡니다.</li>
+                                               <li>우유에 설탕과 소금을 넣고 녹여줍니다.</li>
+                                               <li>가루류에 우유를 넣고 섞어준 뒤, 팥배기를 넣어 마저 섞어줍니다.</li>
+                                               <li>용기에 80% 정도를 채우고 팥배기 몇 알은 위에 장식 해줍니다.</li>
+                                               <li>쿠쿠 밥솥에 넣고 만능찜 기능으로 20분간 쪄주면 완성입니다.</li>
+                                           </ol>
+                                       </dd>
+                       </dl>
+                   </li>
+                   
+                   <li class="qa hide L">
+                       <img src="images/content1/recepi5.jpg" alt="닭가슴살 레몬조림 이미지">
+                       <dl class="q R">
+                                   <dt>닭가슴살 레몬조림</dt>
+                                   <dd> 일반재료: 닭가슴살, 레몬 1개 사과 1/2 개<br>
+                                        <br>양념재료: 다진 생강, 간장 3t, 설탕 1t, 맛술 3t, 정종 3t<br>
+                                        <br>사용제품: 쿠쿠 압력중탕기<br>
+                                        <br><a class="trigger R" href="#none5"><i class="far fa-arrow-alt-circle-down"></i></a>
+                                   </dd>
+                                   <dd>
+                                        <ol class="recepi">
+                                            <li>닭가슴살과 사과, 레몬을 얇게 썰어 준비해둡니다.</li>
+                                            <li>다진 생강, 간장 3t, 설탕 1t, 맛술 3t, 정종 3t를 넣고 양념장을 만들어줍니다.</li>
+                                            <li>쿠쿠 압력중탕기에 준비해둔 재료들과 양념장을 넣어줍니다.</li>
+                                            <li>조리 시간은 1시간, 조리 단계는 4단계, 조리 압력은 저압으로 맞춰줍니다.</li>
+                                            <li>1시간 경과 후, 먹기 좋은 크기로 잘라 접시에 담아주면 완성입니다.</li>
+                                        </ol>   
+                                   </dd>
+                        </dl>
+                   </li>
+                   
+                   <li class="qa hide R">
+                       <img src="images/content1/recepi6.jpg" alt="밤피자 이미지">
+                       <dl class="q L">
+                                       <dt>밤피자</dt>
+                                       <dd> 일반재료: 또띠아 1장, 찐밤, 양파 1/2개, 피망 조금<br>체다슬라이스치즈 1장, 양송이버섯 2개, 피자치즈 한줌<br>
+                                            <br>양념재료: 피자 소스<br>
+                                            <br>사용제품: 쿠쿠 밥솥<br>
+                                            <br><a class="trigger" href="#none6"><i class="far fa-arrow-alt-circle-down"></i></a>
+                                       </dd>
+                                       <dd>
+                                           <ol class="recepi">
+                                               <li>밤을 쿠쿠 밭솥에 넣고 찜으로 쪄준 뒤, 속을 숟가락으로 파냅니다.</li>
+                                               <li>밤을 쿠쿠 밭솥에 넣고 찜으로 쪄준 뒤, 속을 숟가락으로 파냅니다.</li>
+                                               <li>준비 해놓은 재료들을 썰어줍니다.</li>
+                                               <li>또띠아 위에 피자 소스를 바르고 치즈를 올려줍니다.</li>
+                                               <li>밤을 깔고 야채를 올려준 뒤, 피자 치즈를 올려줍니다.</li>
+                                               <li>200도 오븐에서 15분 가량 구워주면 완성입니다.</li>
+                                           </ol>
+                                       </dd>
+                       </dl>
+                       
+                   </li>
+               </ul>
+               
+             </div>
+               
+       </article>
+          
+       <? include "../common/sub_foot.html"  ?>
+    
+        <script src="../sub3/js/recepi.js"></script>
+    
+</body>
+</html>

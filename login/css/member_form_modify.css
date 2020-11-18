@@ -1,0 +1,42 @@
+body{font-size:18px; margin: 0 auto; background: #f5f5f5}
+.hidden{display: block; position: absolute; left: -1000%; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+label.labelnone{display: none}
+
+.content{margin: 0 0 100px 0}
+
+fieldset{padding: 0; margin: 0; position: relative; border: 2px solid #ccc}
+.line::after{content: ''; border-left: 1px solid #ccc; height: 594px;  position: absolute; top: 0; left: 215px}
+
+.wrap{width: 700px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; position: relative}
+.wrap ul li{list-style: none}
+.wrap span{text-align: center}
+.wrap ul li:last-of-type{position: absolute; left: 250px; margin-top: -10px}
+.wrap ul{border-bottom: 1px solid #ccc; ; padding-bottom: 30px; margin-top: 30px}
+.wrap a{text-decoration: none}
+
+.hbox{margin-left: 225px; padding: 40px 0 70px 0}
+.hbox h1 a{display: block; width: 250px; height: 37px; text-indent: -999px; overflow: hidden; background: url(../images/logo.png)}
+
+input{height: 32px; padding: 2px 20px 8px 20px; font-size: 18px; width: 120px; border: 1px solid #ccc; outline: none; font-family: 'Nanum Gothic', sans-serif}
+
+.button{margin-left: 250px; ; padding-bottom: 30px; margin-top: 30px}
+.button a{margin-left: 0; padding: 7px; height: 40px; border: none; font-weight: 800}
+.button a:first-of-type{color: #fff; background: #595754; margin-right: 30px}
+.button a:last-of-type{color: #fff; background: #999}
+
+.nbox ul:first-of-type li:nth-child(2){height: 32px; padding: 5px 20px; font-size: 18px; width: 120px; border: 1px solid #ccc; outline: none; background: #fff}
+.nbox ul li a{background: #e74d27; padding: 5px 8px; font-size: 15px; color: #fff; font-weight: 800; margin-left: 10px}
+
+
+.tbox li:last-of-type{height: 32px; font-size: 16px; border: 1px solid #ccc; outline: none; background: #fff; width: 210px; padding: 10px 0px 0px 20px}
+.tbox input{border: none; width: 50px; padding-left: 10px; margin-left: 0; height: 15px; padding: 0}
+
+ul{overflow: hidden}
+ul li{float: left}
+
+.mbox input:last-child{margin-left: 0}
+
+.ibox{overflow: hidden}
+.ibox li{float: left}
+.ibox li:nth-child(2){height: 32px; padding: 5px 20px; font-size: 18px; width: 120px; border: 1px solid #ccc; outline: none; background: #fff}

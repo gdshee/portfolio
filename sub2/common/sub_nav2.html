@@ -1,0 +1,49 @@
+    <script> window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+
+        var nav1= document.getElementById('nav1'); 
+
+        var nav2= document.getElementById('nav2');
+
+    
+
+          if(num==1){
+
+              nav1.className='current';
+
+          }else if(num==2){
+
+              nav2.className='current';
+
+          }
+    }
+
+    </script>
+
+    
+   
+  
+ 
+<!-- 메인 비주얼 영역 -->
+       
+        <div class="visual">
+           <img src="../sub2/common/images/sub2_visual.jpg" alt="">
+           <div class="visual_text">
+               <h3>제품소개</h3>
+               <div class="visual_line"></div>
+               <p>고객 여러분들을 생각하며, 항상 깨끗한 마음으로 만들겠습니다.</p>
+           </div>
+       </div>
+       
+       
+<!-- 서브 네비 영역 -->
+              
+       <div class="subnav_box">
+          <div class="subnav">
+              <ul>
+                   <li><a id="nav1" href="sub2_1.html">NEW</a></li>
+                   <li><a id="nav2" href="sub2_2.html">BEST</a></li>
+              </ul>
+          </div>         
+       </div>

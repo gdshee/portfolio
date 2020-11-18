@@ -1,0 +1,55 @@
+<script> window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+
+        var nav1= document.getElementById('nav1'); 
+
+        var nav2= document.getElementById('nav2');
+
+        var nav3= document.getElementById('nav3');
+
+    
+
+          if(num==1){
+
+              nav1.className='current';
+
+          }else if(num==2){
+
+              nav2.className='current';
+
+          }else if(num==3){
+
+              nav3.className='current';
+
+          }
+    }
+
+    </script>
+
+    
+   
+  
+ <!-- 메인 비주얼 영역 -->
+       
+        <div class="visual">
+           <img src="../sub4/common/images/sub4_visual.jpg" alt="">
+           <div class="visual_text">
+               <h3>홍보센터</h3>
+               <div class="visual_line"></div>
+               <p>고객 여러분들의 행복한 기억으로 남고 싶습니다.</p>
+           </div>
+       </div>
+       
+       
+<!-- 서브 네비 영역 -->
+              
+       <div class="subnav_box">     
+          <div class="subnav">
+              <ul>
+                   <li><a id="nav1" href="sub4_1.html">쿠쿠 영상관</a></li>
+                   <li><a id="nav2" href="sub4_2.html">쿠쿠 기술력</a></li>
+                   <li><a id="nav3" href="sub4_3.html">쿠쿠 스토리</a></li>
+              </ul>
+          </div>          
+       </div>

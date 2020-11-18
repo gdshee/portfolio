@@ -1,0 +1,43 @@
+ .imgBox #bimgBG{display: block; position: fixed; top: 50%; left: 50%; width: auto; min-width: 100%; height: auto; min-height: 100%; transform: translateX(-50%) translateY(-50%); z-index: -100}
+.imgBox .imgTitle{position: absolute; left: 50%; top: 25%; transform: translateX(-50%); text-align: center}
+.imgBox .imgTitle span{color:#fff; font-size: 100px; display: block; text-shadow: 2px 2px 2px rgba(0,0,0,1)}
+
+.down{display: block; position: absolute; left:50%; margin-left: -90px; bottom: 15%; animation:ani 1s infinite  alternate}
+
+@keyframes ani {0% {transform:scale(1); opacity:1; color:#fff} 100% {transform:scale(1.2); opacity:0.8; color:#888}}
+.down img{margin-bottom: 20px}
+.down ul li{text-align: center; font-size: 25px}
+
+#simgBG{position:fixed; left:50%; top:50%; width:auto; min-width:100%; height:auto; min-height:100%; transform:translateX(-50%) translateY(-50%); z-index:-100; display:none}
+
+#content{background: rgba(0,0,0,.8); padding-top: 5%}
+
+.clip_part h3{font-family: 'Shadows Into Light Two', cursive}
+.clip_part{padding-bottom: 50px}
+.mini .clip_part{padding-bottom: 0}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    .clip_part h3{font-size: 2.5em}
+    .clip_part {padding-bottom: 0}
+    
+}
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    
+    .imgBox .imgTitle span{font-size: 90px}
+    .clip_part h3{font-size: 1.4em}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {    
+    .clip_part h3{font-size: 1.5em}
+    .imgBox .imgTitle span{font-size: 80px}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+    .imgBox .imgTitle span{font-size: 60px}
+}

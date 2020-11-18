@@ -1,0 +1,10 @@
+.title_area{width: 1200px; margin: auto; font-family: 'Nanum Gothic', sans-serif}
+#content .title_area h2{margin-bottom: 120px}
+.title_area ul{overflow: hidden; width: 1000px; margin: auto; font-family: 'Roboto', sans-serif; margin-bottom: 150px}
+.title_area ul li{width: 25%; float: left; text-align: center}
+.title_area ul li a{display: block; padding: 15px 0; font-size: 18px; font-weight: 600; border-top: 2px solid #97CFDE; border-bottom: 2px solid #97CFDE; color: #333}
+.title_area ul li a:hover{font-weight: bold; letter-spacing: -1px; background: #97CFDE; color: #fff}
+
+.content_area .fancyBox{margin: 0 auto; width: 1500px}
+.content_area .fancyBox ul{overflow: hidden; padding-bottom: 250px; margin-left: -175px}
+.content_area .fancyBox ul li{float: left; margin: 30px; border: 1px solid #ccc; padding: 10px; box-shadow: 2px 2px 5px 3px #eee}

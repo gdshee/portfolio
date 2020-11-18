@@ -1,0 +1,57 @@
+ .imgBox #bimgBG{display: block; position: fixed; top: 50%; left: 50%; width: auto; min-width: 100%; height: auto; min-height: 100%; transform: translateX(-50%) translateY(-50%); z-index: -100}
+.imgBox .imgTitle{position: absolute; left: 50%; top: 25%; transform: translateX(-50%); text-align: center}
+.imgBox .imgTitle span{color:#fff; font-size: 100px; display: block; text-shadow: 2px 2px 2px rgba(0,0,0,1)}
+
+.down{display: block; position: absolute; left:50%; margin-left: -90px; bottom: 15%; animation:ani 1s infinite  alternate}
+
+@keyframes ani {0% {transform:scale(1); opacity:1; color:#fff} 100% {transform:scale(1.2); opacity:0.8; color:#888}}
+.down img{margin-bottom: 20px}
+.down ul li{text-align: center; font-size: 25px}
+
+#simgBG{position:fixed; left:50%; top:50%; width:auto; min-width:100%; height:auto; min-height:100%; transform:translateX(-50%) translateY(-50%); z-index:-100; display:none}
+
+#content{background: rgba(0,0,0,.8); padding-top: 5%}
+
+#content .castarea .ccont ul{overflow: hidden; width: 96%; margin-left: 4%}
+#content .castarea .ccont ul li{float: left; width: 30%; margin: 3% 1.5%;}
+#content .castarea .ccont ul li img{border-radius: 50%; width: 90%}
+/*#content .castarea .ccont ul li img:nth-child(2){display: none}*/
+#content .castarea .ccont ul li p{margin-left: -4%; text-align: center; font-size: 30px; padding-top: 20px}
+
+
+@media screen and (max-width:1600px){
+    #content .castarea .ccont ul li p{font-size: 24px}
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px){
+    #content .castarea .ccont ul li p{font-size: 18px}
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #content .castarea .ccont ul li p{font-size: 14px}
+    
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    
+    .imgBox .imgTitle span{font-size: 90px}
+  #content .castarea .ccont ul li{float: left; width: 30%; margin: 3% 1.5%;}
+    #content .castarea .ccont ul li{float: none; width: 90%; margin-left: 5%}
+    #content .castarea .ccont ul li img{width: 70%; margin-left: 10%}
+    #content .castarea .ccont ul li p{padding: 20px 0 30px 0; margin-left: -6%; font-size: 20px}
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {    
+
+    .imgBox .imgTitle span{font-size: 80px}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+    .imgBox .imgTitle span{font-size: 60px}
+}

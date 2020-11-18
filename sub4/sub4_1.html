@@ -1,0 +1,116 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CUCKOO-쿠쿠 영상관</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1b49ca1a7.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/sub4_content1.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    <!--[if IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html"  ?>
+      
+    <div class="lineMap">
+        <span>HOME</span>&gt;<span>홍보센터</span>&gt;<strong>쿠쿠 영상관</strong>
+    </div>  
+       
+    <? $_GET['num']=1;
+          include "common/sub_nav4.html"; 
+
+     ?>
+        
+        
+
+                
+<!-- 본문 콘텐츠 영역 -->
+        
+         <article id="content">
+              
+               <div class="title_area">
+                   <h2>쿠쿠 영상관</h2>
+                
+               </div>
+               
+
+               <div class="content_area">    
+                           
+                     <div class="con">
+                        
+                        <div class="main">
+                                <iframe title="쿠쿠 홍보 영상" name="ifr" src="https://www.youtube.com/embed/rgdlWjTH9-A" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div>
+                                   <dl>
+                                        <dt>CUCKOO 마시멜로 식기 세척기</dt>
+                                        <dd>식사하시고 편히 쉬세요, 설거지는 <strong>쿠쿠가 하겠습니다</strong>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>CUCKOO 멀티 쿠커</dt>
+                                        <dd>재료만 넣고 편히 쉬세요, 요리는 <strong>쿠쿠가 하겠습니다</strong>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>CUCKOO 12000 울트라</dt>
+                                        <dd>집 안에서 느끼는 자연의 상쾌함, 청정은 <strong>쿠쿠가 하겠습니다</strong>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>CUCKOO 트윈 프레셔</dt>
+                                        <dd>밥에서도 느끼는 건강함, 당질 줄이기는 <strong>쿠쿠가 하겠습니다</strong>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                              <ul class="sub">
+                                    <li><a href="https://www.youtube.com/embed/7om1ILUb1Qw" target="ifr">
+                                       <img src="images/content1/thum1.jpg" alt="쿠쿠 멀티 쿠커">
+                                       <p>쿠쿠 멀티 쿠커</p>
+                                       </a>
+                                   </li>
+                                   <li>
+                                    <a href="https://www.youtube.com/embed/5aNyhsd92Qc" target="ifr">
+                                     <img src="images/content1/thum2.jpg" alt="쿠쿠 12000 울트라">
+                                       <p>쿠쿠 12000 울트라</p>
+                                       </a>
+                                   </li>
+                                   <li>
+                                      <a href="https://www.youtube.com/embed/o6UQjX2SmsI" target="ifr">
+                                       <img src="images/content1/thum3.jpg" alt="쿠쿠 트윈프레셔">
+                                       <p>쿠쿠 트윈프레셔</p>
+                                       </a>
+                                   </li>  
+                            </ul>
+                   </div>                        
+                   
+             </div>
+               
+       </article>
+          
+       <? include "../common/sub_foot.html"  ?>
+    
+       <script src="js/video_change.js"></script> 
+    
+</body>
+</html>

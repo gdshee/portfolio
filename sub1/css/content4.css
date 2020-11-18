@@ -1,0 +1,12 @@
+#content .title_area h2{}
+#content .content_area{position: relative}
+#content .content_area #map{width: 1000px; height: 600px; position: relative; overflow: hidden; margin-left: 110px}
+table{margin: 150px 110px 300px 110px; font-family: 'Nanum Gothic', sans-serif; font-weight: 400; font-size: 16px; border-top: 2px solid #666; width: 1000px}
+tr{border-bottom: 1px solid #ccc;}
+tr:last-child{border-bottom: 2px solid #ccc;}
+th{padding: 40px 40px; text-align: center; font-size: 20px}
+td{padding-left: 20px; line-height: 2em; text-align: justify;}
+td span{padding: 40px 20px; font-weight: bold}
+td span:first-of-type{padding-right: 32px}
+td i:first-child{color: forestgreen}
+td i:nth-last-child(2){color: dodgerblue}

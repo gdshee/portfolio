@@ -1,0 +1,29 @@
+.title_area{width: 1200px; margin: auto; font-family: 'Nanum Gothic', sans-serif}
+#content .title_area h2{margin-bottom: 120px}
+.title_area ul{overflow: hidden; width: 1000px; margin: auto; font-family: 'Roboto', sans-serif; margin-bottom: 150px}
+.title_area ul li{width: 25%; float: left; text-align: center}
+.title_area ul li a{display: block; padding: 15px 0; font-size: 18px; font-weight: 600; border-top: 2px solid #97CFDE; border-bottom: 2px solid #97CFDE; color: #333}
+.title_area ul li a:hover{font-weight: bold; letter-spacing: -1px; background: #97CFDE; color: #fff}
+
+.content_area ul{display: block; width: 1000px; margin: 0 125px 200px; overflow: hidden; }
+.content_area ul li{border: 1px solid #ccc; width: 280px; height: 340px; float: left; text-align: center; line-height: 2em; font-size: 18px; font-family: 'Nanum Gothic', sans-serif; font-weight: 800; color: #666; position: relative; margin-right: 50px; position: relative; margin-bottom: 70px}
+.content_area ul li:last-of-type {margin-right:0}
+.content_area ul li img{padding: 40px 0 30px 0}
+
+.content_area ul li p{padding-bottom: 20px}
+
+
+
+.content_area ul li span{display: block; background: #97CFDE; position:  absolute; top:0; left:0;width: 280px; height:340px;
+opacity:0; transition: all .5s}
+.content_area ul li:hover span{opacity: 1}
+.content_area ul li dt {width: 100%; position: absolute; top: 300px; left: 0; opacity: 0; transition: all .5s; color: #fff; font-size: 20px}
+.content_area ul li:hover dt {opacity: 1; top: 55px; transition-delay: .3s;}
+.content_area ul li dd {width: 100%; position: absolute; top: 300px; left: 0; opacity: 0; transition: all .5s; font-weight: 400; font-size: 16px; color: #666}
+.content_area ul li:hover dd {opacity: 1; top: 115px; transition-delay: .6s}
+
+
+
+
+
+

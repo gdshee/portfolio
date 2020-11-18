@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CUCKOO-찾아오시는 길</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1b49ca1a7.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sub1_3.css">
+    
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/map2.js"></script>
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0ab790c00c05f16378dbbbd409591014"></script>
+    
+    <script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<body>
+ 
+       <? include "head.html"  ?>
+          
+     <div class="main">
+<!--        비주얼 영역-->
+         <div class="visual_text">
+               <h3>기업소개</h3>
+               <div class="visual_line"></div>
+               <p>쿠쿠의 변함 없는 따뜻함은<br>고객 여러분들을 향한 마음입니다.</p>
+           </div>
+           <img src="images/sub1visual.jpg" alt="">
+      </div>
+           
+<!-- 본문 콘텐츠 영역 -->
+       
+        
+         <article id="content">
+              
+               <div class="title_area">
+                   <h2>찾아오시는 길</h2>
+               </div>
+
+               <div class="content_area">
+                    <div id="map"></div>
+                    <table>
+                        <tr>
+                            <th>주소</th>
+                            <td>서울 강남구 언주로 652 쿠쿠빌딩</td>
+                        </tr>
+                        <tr>
+                            <th>전화번호</th>
+                            <td>02-2017-6000</td>
+                        </tr>
+                        <tr>
+                            <th>오시는 법</th>
+                            <td><i class="fas fa-bus"></i><span>버스: </span>401, 147, 3412, 6411 학동역 정류장 하차<br>
+                                <i class="fas fa-subway"></i><span>지하철: </span>학동역 1번 출구에서 전방 160m
+                            </td>
+                        </tr>
+                    </table>
+               </div>
+               
+       </article>
+               
+          
+
+
+        <? include "foot.html"  ?>
+    
+</body>
+</html>

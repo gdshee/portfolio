@@ -1,0 +1,211 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CUCKOO</title>
+    
+     <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+    
+    <script src="mainjs/mainpopup.js"></script>
+    <script src="common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/b1b49ca1a7.js" crossorigin="anonymous"></script>  
+    
+    <!--[if IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+   
+    <? include "common/main_head.html"  ?>
+       
+        <div class="visual">
+            <div class="vgallery">
+                     <ul>
+                          <li><a href="#"><img src="images/visual.jpg" alt='메인 이미지1'></a></li>
+                          <li><a href="#"><img src="images/visual2.jpg" alt='메인 이미지2'></a></li>
+                          <li><a href="#"><img src="images/visual3.jpg" alt='메인 이미지3'></a></li>
+                          <li><a href="#"><img src="images/visual4.jpg" alt='메인 이미지4'></a></li>
+                    </ul>
+             </div>
+            <div class="dock">
+              	<span class="mbutton  btn1" ></span>
+              	<span class="mbutton  btn2" ></span>
+             	<span class="mbutton  btn3" ></span>
+              	<span class="mbutton  btn4" ></span>
+              	<span class="ps"></span>
+            </div>
+        </div>
+        
+        <article id="contentArea">
+          
+           <h2 class="hidden">본문 콘텐츠 영역</h2>
+               
+                <div class="product">
+                    <h3><a class="tab tab1" href="#none1">BEST</a></h3>
+                    <div class="contlist">
+                          <dl class="comment1">
+                             <dt>TWIN PRESSURE <br>MASTER CHEF</dt>
+                             <dd>트윈 프레셔 마스터 셰프</dd>
+                             <dd>고객님의 취향과 요리 방법에 따라 달라지는 밥을<br>트윈 프레셔로 간편하게 지을 수 있습니다</dd>
+                             <dd><a href="sub2/sub2_2.html"><img class="more" src="images/more.png" alt="더보기"></a></dd>
+                          </dl>
+                          <img src="images/product.jpg" alt="제품 사진">
+                    </div>
+                    
+                    <h3><a class="tab tab2" href="#none2">NEW</a></h3>
+                    <div class="contlist">
+                          <dl class="comment2">
+                             <dt>CROSS CUT<br>BLENDER</dt>
+                             <dd>크로스 컷 블랜더</dd>
+                             <dd>국내 최초 양방향 회전 제품으로 최상의 부드러움을<br>크로스 컷 블랜더로 느끼실 수 있습니다</dd>
+                             <dd><a href="sub2/sub2_1.html"><img class="more" src="images/more.png" alt="더보기"></a>
+                             </dd>
+                          </dl>
+                          <img src="images/product2.jpg" alt="제품 사진">
+                    </div>
+
+                </div>
+            
+            
+            <div class="N">
+               <? include "./lib/func.php"; ?>
+  
+                <div class="news_box">
+                    <h3>NEWS</h3>
+                <!--최근 게시물 삽입-->
+                    <? latest_article("news", 3, 18, 50); ?>
+                    <a class="nmore" href="news/list.php">MORE +</a>
+                </div>
+                
+                  <div class="notice_box">
+                    <h3>NOTICE</h3>
+                   <!--최근 게시물 삽입-->
+                   <? latest_article("notice", 3, 18, 50); ?>
+                    <a class="nmore" href="notice/list.php">MORE +</a>
+                </div>
+                
+            </div>
+            
+            <div class="gs">
+                <img src="images/gs.jpg" alt="글로벌 서비스">
+                <div class="group"><h3>Global Service</h3>
+                <p>해외고객님의 불편을 그대로 두고 본다는 것은<br>쿠쿠 서비스 정신에 어긋나기 때문에<br>한국에서 구입한 제품들에 대해<br>적절한 서비스를 받으실 수 있는 길을 열어 두고자<br>가능한 지역에 한해<br>해외서비스를 실시하고 있습니다</p>
+                <a href="sub5/sub5_1.html"><img src="images/more.png" alt="더보기"></a>
+                </div>
+            </div>
+            
+            <div class="gallery">
+                <h3>GALLERY</h3>
+                <div class="gi">
+                   <ul>
+                        <li>
+                            <a href="sub3/sub3_3.html"><img src="images/gallery1.jpg" alt="갤러리 이미지1"></a>
+                            <a href="sub3/sub3_3.html"><img src="images/gallery2.jpg" alt="갤러리 이미지2"></a>
+                            <a href="sub3/sub3_3.html"><img src="images/gallery3.jpg" alt="갤러리 이미지3"></a>
+                        </li>
+
+                        <li>
+                            <a href="sub3/sub3_3.html"><img src="images/gallery4.jpg" alt="갤러리 이미지4"></a>
+                            <a href="sub3/sub3_3.html"><img src="images/gallery5.jpg" alt="갤러리 이미지5"></a>
+                            <a href="sub3/sub3_3.html"><img src="images/gallery6.jpg" alt="갤러리 이미지6"></a>
+                        </li>
+                    
+                        <li>
+                            <a href="sub3/sub3_3.html"><img src="images/gallery7.jpg" alt="갤러리 이미지7"></a>
+                            <a href="sub3/sub3_3.html"><img src="images/gallery8.jpg" alt="갤러리 이미지8"></a>
+                            <a href="sub3/sub3_3.html"><img src="images/gallery9.jpg" alt="갤러리 이미지9"></a>
+                        </li>
+                   </ul>
+                </div>
+               <a href="#javascript" class="leftBtn"><span class="hidden">왼쪽</span><i class="fas fa-chevron-left"></i></a>
+               <a href="#javascript" class="RightBtn"><span class="hidden">오른쪽</span><i class="fas fa-chevron-right"></i></a>
+               
+            </div>
+            
+            
+            
+            <div class="faqBox">
+               <h3>FAQ</h3>
+                <div class="faqContent">
+                   <ul>
+                      <li class="link1">
+                           
+                               <strong>자동절전기능 설정 모드 사용법</strong>
+                               <p>자동절전기능이 있는 밥솥의 경우, 무작동 상태에서는 30분이 경과하면 자동절전모드로 전환됩니다.<br>즉시 자동절전모드로 전환을 원하신다면, 2초간 취소 버튼을 누르시면 전환이 가능합니다.</p>
+                          
+                       </li>
+                       <li class="link2">
+                          
+                               <strong>렌탈료와 계약만료일 확인법</strong>
+                               <p>렌탈료와 계약만료일은 고객센터를 통해 연락처를 확인하거나 쿠쿠모바일 홈페이지에서 조회 가능합니다.</p>
+                          
+                       </li>
+                       <li class="link3">
+                          
+                               <strong>서비스 모드 해제법</strong>
+                               <p>서비스 모드를 해제하기 위해서는 맞춤 밥맛 버튼을 눌러주시면 됩니다.</p>
+                         
+                       </li>
+                   </ul>
+                   <a href="sub5/sub5_4.html">더보기</a>
+                </div>
+               <img src="images/faq.png" alt="faq 세모">
+               <div class="dock">
+               <span class="dot button1"><i class="fas fa-circle"></i></span>
+               <span class="dot button2"><i class="fas fa-circle"></i></span>
+               <span class="dot button3"><i class="fas fa-circle"></i></span>
+               </div>
+            </div>
+        </article>
+         
+ <? include "common/main_foot.html"  ?>
+            
+            
+ <!-- 이 위치에 추가되는 스크립트를 연결하세요 -->
+     <script src="mainjs/move.js"></script>
+     <script src="mainjs/tab.js"></script>
+     <script src="mainjs/gallery.js"></script>
+     <script src="mainjs/faqMove.js"></script>
+   
+     
+    
+    <!-- 팝업 공지 영역 -->
+    <div id="showimage" style="z-index:40;position:absolute;width:322px;left:50px;top:230px;">
+  <script>
+    function closeWin(){
+       var chk = document.getElementById('Notice')
+       if ( chk.checked ) {
+             setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+        }
+    }
+   if ( getCookie( "Notice" ) == "done" ) {
+       hidebox();
+   }
+ </script>
+    <div>
+          <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.">
+    </div>
+     <div style="font-size:12px;text-align:center;color:#666;">
+       <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+     <a href="#"  onclick="closeWin();hidebox();return false;"> [close] </a>
+  </div>
+</div>
+
+</body>
+</html>

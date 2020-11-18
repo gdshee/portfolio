@@ -1,0 +1,132 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CUCKOO-쿠쿠 기술력</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1b49ca1a7.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/sub4_content2.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    <!--[if IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html"  ?>
+       
+    <div class="lineMap">
+        <span>HOME</span>&gt;<span>홍보센터</span>&gt;<strong>쿠쿠 기술력</strong>
+    </div>     
+        
+    <? $_GET['num']=2;
+          include "common/sub_nav4.html"; 
+
+     ?>
+               
+               
+                
+<!-- 본문 콘텐츠 영역 -->
+        
+         <article id="content">
+              
+               <div class="title_area">
+                   <h2>쿠쿠 기술력</h2>
+               </div>
+               
+
+               <div class="content_area">
+               
+               <table>
+                        <tr>
+                            <th>
+                                <img src="images/content2/eco.jpg" alt="">
+                                <br>에코 커브드 내솥
+                            </th>
+                            <td>취사 시 열을 보존해 주는 신개념 버블층이, 새는 열을 완벽히 차단하여<br>
+                                열전달과 열보존을 극대화 함으로써, 밥솥 최고의 차진 밥맛을 구현합니다. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <img src="images/content2/2.jpg" alt="">
+                                <br>2중 모션 패킹
+                            </th>
+                            <td>2중 모션 패킹은 취사 시 높아진 압력으로 밀폐층과 지지층 사이에 있는<br>
+                                중공층이 압축하여 밀폐력이 높아져 증기가 샐 틈이 없게 됩니다.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <img src="images/content2/dia.jpg" alt="">
+                                <br>다이아쉴드 내솥
+                            </th>
+                            <td>다이아쉴드층의 높은 대화력과 뛰어난 내구성, 그리고 눈부시게 빛나는<br>
+                                아름다움으로 보다 찰지고 맛있는 IH최상의 밥맛을 선사합니다.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <img src="images/content2/x.jpg" alt="">
+                                <br>Xwall 코팅
+                            </th>
+                            <td>깊이있는 아름다움으로 빛나는 엑스웰 블랙샤인 코팅은 고열, 고압, 염분에<br>
+                                강해 당신의 밥맛을 안전하게 지켜드립니다.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <img src="images/content2/clean.jpg" alt="">
+                                <br>클린 시스템
+                            </th>
+                            <td>강력스팀 자동 살균과 논스톱 스팀배출로 세균은 물론 냄새까지 말끔히 배출하고<br>
+                                밥물고임 방지배수로로 밥솥내부의 고인 밥물을 말끔하게 청소합니다.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <img src="images/content2/f.jpg" alt="">
+                                <br>Fresh 발아현미
+                            </th>
+                            <td>내솥에서 직접 현미쌀을 발아시키므로 발아현미의 영양이 그대로 살아있습니다.<br>
+                                발아현미 쌀, 발아과정이 없는 타사와 다른 갓 틔운 발아현미의 영양을 얻으세요.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <img src="images/content2/s.jpg" alt="">
+                                <br>소프트 현미 잡곡밥
+                            </th>
+                            <td>쿠쿠의 업그레이드 된 열제어 기술로 까칠한 현미밥과 딱딱한 콩, 잡곡 등을<br>
+                                부드럽게 취사하여 언제나 영양 많은 밥을 드실 수 있습니다.
+                            </td>
+                        </tr>
+                    </table>
+               
+               </div>
+               
+       </article>
+          
+       <? include "../common/sub_foot.html"  ?>
+    
+        
+    
+</body>
+</html>

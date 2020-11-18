@@ -1,0 +1,41 @@
+body{font-size:16px; margin: 0 auto; background: #f5f5f5}
+scale, select, input[type=button], input[type=submit], input[type=reset]{-webkit-appearance:none}
+.hidden{display: block; position: absolute; left: -1000%; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+label.labelnone{display: none}
+
+.content{margin: 0 auto 100px auto; width: 100%}
+
+fieldset{padding: 0; margin: 20px; position: relative; border: 2px solid #ccc}
+
+.wrap{width: 100%; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; text-align: center}
+.wrap ul li{list-style: none; margin-bottom: 10px}
+.wrap span{text-align: center}
+.wrap ul{border-bottom: 1px solid #ccc; ; padding: 0 0 15px 0; margin-top: 15px}
+.wrap a{text-decoration: none}
+
+.hbox {margin: 50px 0; overflow: hidden}
+.hbox h1 a{position: absolute; left: 50%; top: 50px; margin-left: -75px; width: 150px; height: 22px; display: block; text-indent: -999px; overflow: hidden; background: url(../images/logo.png)}
+
+input{height: 32px; padding: 2px 20px 8px 20px; font-size: 12px; width: 70%; border: 1px solid #ccc; outline: none; font-family: 'Nanum Gothic', sans-serif}
+
+.button{margin-left:; padding-bottom: 30px; margin-top: 30px}
+.button a{margin-left: 0; padding: 7px; height: 40px; border: none; font-weight: 800}
+.button a:first-of-type{color: #fff; background: #595754; margin-right: 15px}
+.button a:last-of-type{color: #fff; background: #999}
+
+.nbox ul:first-of-type li:nth-child(2){height: 32px; padding: 10px 20px 0 20px; font-size: 12px; width: 70%; border: 1px solid #ccc; outline: none; background: #fff; margin: 0 auto}
+.nbox ul:last-of-type{position: relative; padding-bottom: 30px}
+.nbox ul li a{background: #e74d27; padding: 3px 6px; font-size: 12px; color: #fff; font-weight: 800; position: absolute; bottom: 15px; left: 50%; margin-left: -32px}
+#nick{text-align: center; margin-bottom: 10px}
+
+.tbox li:last-of-type{height: 32px; font-size: 14px; border: 1px solid #ccc; outline: none; background: #fff; width: 70%; padding-top: 10px; padding-left: 40px; margin: 0 auto}
+.tbox input{border: none; width: 25%; padding-left: 10px; margin-left: 0; height: 15px; padding: 0}
+
+ul{overflow: hidden}
+
+#email{background: #fff; height: 32px; font-size: 14px; border: 1px solid #ccc; outline: none; background: #fff; padding: 10px 20px 0 20px; width: 70%; margin: 0 auto}
+#email input{border: none; height: 15px; margin-top: 4px; padding: 0; width: 30%}
+
+.ibox{overflow: hidden}
+.ibox li:nth-child(2){height: 32px; padding: 10px 20px 0 20px; font-size: 12px; width: 70%; border: 1px solid #ccc; outline: none; background: #fff; margin: 0 auto}

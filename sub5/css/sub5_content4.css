@@ -1,0 +1,11 @@
+.title_area{position: relative}
+.title_area a{position: absolute; bottom: -100px; right: 100px; width: 100px; background: #9A4388;; color: #fff; font-size: 25px}
+#content .content_area{position: relative; text-align: justify; margin: 0 auto; display: block; width: 1000px}
+.content_area ul {margin-bottom: 200px;  border: 2px solid #C9AECF; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; line-height: 2em}
+.content_area ul li{border-bottom: 2px solid #C9AECF; padding: 0 20px}
+.content_area ul li:last-of-type{border: none}
+.content_area ul li p{padding: 30px 20px}
+.content_area ul li p a{display: block}
+.content_area ul li .a{border-bottom: none; padding-top: 20px; border-top: 1px solid #9A4388; overflow: hidden}
+.q{position: relative}
+.content_area ul li p strong{font-family: 'Roboto', sans-serif; font-size: 22px; padding-right: 20px; font-weight: 500}

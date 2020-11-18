@@ -1,0 +1,140 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>CUCKOO-연혁</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b1b49ca1a7.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    
+    <!--[if IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html"  ?>
+    
+    <div class="lineMap">
+        <span>HOME</span>&gt;<span>기업 소개</span>&gt;<strong>연혁</strong>
+    </div>
+         
+    <? $_GET['num']=3;
+          include "common/sub_nav1.html"; 
+
+     ?>
+       
+        
+        
+                
+                      
+<!-- 본문 콘텐츠 영역 -->
+        
+         <article id="content">
+              
+               <div class="title_area">
+                   <h2>연혁</h2>
+                   <ul>
+                       <li><h3><a href="#year2020">2020s</a></h3></li>
+                       <li><h3><a href="#year2010">2010s</a></h3></li>
+                       <li><h3><a href="#year2000">2000s</a></h3></li>
+                       <li><h3><a href="#year1990">1990s</a></h3></li>
+                       <li><h3><a href="#year1980">1980s</a></h3></li>
+                       <li><h3><a href="#year1970">1970s</a></h3></li>
+                   </ul>
+               </div>
+
+               <div class="content_area">
+                   <dl id="year2020" class="L">
+                       <dt>2020s</dt>
+                       <dd>              
+                           국가브랜드경쟁력지수 13년 연속 1위<br>              
+                           소비자 선정 최고의 브랜드 대상 수상
+                           <img src="images/content3/2020.jpg" alt="2020s 이미지">
+                       </dd>
+                   </dl>
+                
+                   <dl id="year2010" class="R">
+                       <dt>2010s</dt>
+                       <dd>
+                           세계일류상품인증서 획득<br>
+                           청정 생활가전 전문브랜드 인스퓨어 론칭<br>
+                           한국산업 고객만족도 1위<br>
+                           제53회 무역의 날 5천만 불탑 수상<br>
+                           고객감동경영대상 수상
+                           <img src="images/content3/2010.jpg" alt="2010s 이미지">
+                       </dd>
+                    </dl>
+                    
+                    <dl id="year2000" class="L">
+                       <dt>2000s</dt>
+                       <dd>
+                           산업재해 예방 우수기업 표창<br>
+                           기술혁신부문 KS인증대상 수상<br>
+                           에너지 위너상 수상
+                           <img src="images/content3/2000.jpg" alt="2000s 이미지">
+                       </dd>
+                    </dl>
+                    
+                    <dl id="year1990" class="R">
+                       <dt>1990s</dt>
+                       <dd>
+                           생산혁신세계대회 열효율 우수제품상 수상<br>
+                           쿠쿠(CUCKOO) 브랜드 제품 출시<br>
+                           ISO 9001획득<br>
+                           재무부장관 표창
+                           <img src="images/content3/1990.png" alt="1990s 이미지">
+                       </dd>
+                    </dl>
+                   
+                    <dl id="year1980" class="L">
+                       <dt>1980s</dt>
+                       <dd>
+                           기업부설 연구소 인정<br>
+                           수출100만불탑 수상<br>
+                           수출입업허가 획득<br>
+                           전기보온밥솥 형식승인 획득
+                           <img src="images/content3/1980.jpg" alt="1980s 이미지">
+                       </dd>
+                    </dl>
+                   
+                    <dl id="year1970" class="R">
+                       <dt>1970s</dt>
+                       <dd>
+                           전기보온밥통 형식승인 획득<br>
+                           전기용품 제조허가 LG전자 O.E.M 업체지정<br>
+                           성광전자주식회사 설립
+                           <img src="images/content3/1970.jpg" alt="1970s 이미지">
+                       </dd>
+                    </dl>
+                   
+               </div>
+            
+        </article>
+
+          
+          
+        <? include "../common/sub_foot.html"  ?>
+    
+        
+    
+</body>
+</html>

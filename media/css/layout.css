@@ -1,0 +1,440 @@
+/* 와이드 pc  */
+#wrap{overflow: hidden}
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+#videoBG {
+   position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100; /*다른요소보다 아래에 위치*/
+  
+}
+
+.vlogo{position: absolute; top: 20%; left: 50%; margin-left: -11.5%}
+#imgBG{
+	position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto; 
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+  z-index:-100;
+   display:none
+}
+
+.down{display: block; position: absolute; 
+	 left:50%; margin-left: -90px; bottom: 6%;
+	animation:ani 1s infinite  alternate}
+@keyframes ani {
+	0% {transform:scale(1); opacity:1; color:#fff}
+	100% {transform:scale(1.2); opacity:0.8; color:#888}
+}
+.down img{margin-bottom: 20px}
+.down ul li{text-align: center; font-size: 25px}
+
+   
+
+#content{position: relative; overflow: hidden; width: 100%}
+#content h3{font-size: 60px}
+
+
+#content .about{text-align: center; background: url(../images/about.jpg); background-size: cover}
+#content .about h3{padding-top: 8%; opacity: 0.8}
+#content .about p{padding: 8% 5% 15% 5%; font-weight: 300; font-size: 25px; font-family: 'Roboto Slab', serif; line-height: 2em}
+.abox{background: rgba(0,0,0,.5);}
+
+
+#content .TRAILERS{clear: both}
+.tback{background: url(../images/back1.jpg) center no-repeat; background-attachment: fixed; background-size: cover; height: 250px; position: relative;}
+#content .TRAILERS .tbox{background: #fff; color: #333; padding: 50px 10px 20px 10px; font-family: 'Roboto Slab', serif}
+#content .TRAILERS .tbox ul{overflow: hidden; margin-left: 1.5%}
+#content .TRAILERS .tbox ul li{float: left; width: 33.33%; margin-bottom: 50px}
+#content .TRAILERS .tbox ul li img{width: 85%; padding: 0 5%}
+#content .TRAILERS .tbox ul li img:hover{opacity: 0.4}
+#content .TRAILERS h3{text-align: center; padding: 80px 0 50px 0}
+#content .TRAILERS dl{margin: 20px 0 50px 0; width: 85%; padding: 0 5%}
+#content .TRAILERS li:nth-of-type(1) dl,#content .TRAILERS li:nth-of-type(2) dl{margin-bottom: 20px}
+#content .TRAILERS dl dt{padding: 2px 0 10px 0; border-bottom: 1px solid #333}
+#content .TRAILERS dl dd{margin-top: 10px}
+
+#content .GALLERY{margin-bottom: 20%}
+#content .GALLERY h3{text-align: center; padding: 50px 0 70px 0}
+#content .GALLERY h4{padding-bottom: 50px; margin-left: 7.5%; font-size: 30px; font-family: 'Roboto Slab', serif;}
+#content .GALLERY h4{padding-top: 150px}
+#content .GALLERY .feature:first-of-type h4{padding-top: 70px}
+
+/* feature film 영역 */
+.feature .inWrap {
+	position: relative;
+}
+
+.feature .fInner {
+	margin: 0 auto;	width: 85%; overflow: hidden;
+	padding-bottom: 1%;
+}
+
+.feature li {
+	float: left; width: 500px; height: 713px; margin-bottom: 2em; list-style: none
+}
+
+.feature:last-of-type li {
+	float: left; width: 800px; height: 450px; margin-bottom: 2em; list-style: none
+}
+
+.feature li a {
+	position: relative;
+	display: block; background: #f0f0f0; height: 100%; margin: 0 5%; text-align: center;
+}
+
+.feature:last-of-type li a {
+	position: relative;
+	display: block; background: #f0f0f0; height: 100%; margin: 0 7%; text-align: center;
+}
+
+.feature li:nth-child(1) a{
+	background: url(../images/p1.jpg) center center no-repeat;
+	background-size: cover;
+    margin-left: 0
+}
+.feature li:nth-child(2) a{
+	background: url(../images/p2.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(3) a{
+	background: url(../images/p3.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(4) a{
+	background: url(../images/p4.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(5) a{
+	background: url(../images/p5.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.feature:last-of-type li:nth-child(1) a{
+	background: url(../images/s1.jpg) center center no-repeat;
+	background-size: cover;
+    margin-right: 0
+}
+.feature:last-of-type li:nth-child(2) a{
+	background: url(../images/s2.jpg) center center no-repeat;
+	background-size: cover;
+    margin-right: 0
+}
+.feature:last-of-type li:nth-child(3) a{
+	background: url(../images/s3.jpg) center center no-repeat;
+	background-size: cover;
+    margin-right: 0
+}
+.feature:last-of-type li:nth-child(4) a{
+	background: url(../images/s4.jpg) center center no-repeat;
+	background-size: cover;
+    margin-right: 0
+}
+.feature:last-of-type li:nth-child(5) a{
+	background: url(../images/s5.jpg) center center no-repeat;
+	background-size: cover;
+    margin-right: 0
+}
+
+.feature .swiper-pagination {
+	position: relative;
+	margin-top: 30px;
+}
+.feature .swiper-pagination-progress .swiper-pagination-progressbar{
+	background: #ebb826;
+}
+
+.feature .button div {
+	position: absolute;
+	width: 60px;
+/*	background: #ebb826;*/
+	color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	top: 35%;
+	transition: all 0.2s
+}
+.feature .button div:active {
+	transform: translate(2px,2px);
+}
+.feature .button a {
+	display: block;
+	height: 100%;
+}
+
+.feature .back a {
+	background: url(../images/back.svg) center center no-repeat;
+	background-size: 30px 30px;
+    text-indent: -999px; overflow: hidden;
+}
+
+.feature .next a {
+	background: url(../images/next.svg) center center no-repeat;
+	background-size: 30px 30px;
+    text-indent: -999px; overflow: hidden;
+}
+
+.feature .back {
+	left: 1%;
+}
+.feature .next {
+	right: 1%;
+}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+
+}
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    
+    .feature li{width: 400px; height: 570px}
+
+    .feature:last-of-type li{width: 650px; height: 366px}
+    
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    
+    .feature li{width: 300px; height: 428px}
+
+    .feature:last-of-type li{width: 500px; height: 282px}
+
+
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    
+    .feature li{width: 250px; height: 357px}
+
+    .feature:last-of-type li{width: 400px; height: 266px}
+
+
+}
+
+/* 소형 모바일 */
+@media screen and (max-width:480px) {
+
+	.feature li{width: 200px; height: 286px}
+
+    .feature:last-of-type li{width: 300px; height: 170px}
+
+	
+}
+
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	
+}
+
+
+
+#content .bbox{background: url(../images/back2.jpg); background-size: cover; padding-bottom: 30%}
+
+
+#content .cast{text-align: center}
+#content .cast .cbox{background: rgba(0,0,0,.7); padding: 2% 0}
+#content .cast ul{overflow: hidden; margin-left: 1%}
+#content .cast ul li{float: left; width: 30%; margin: 3% 1.5%; position: relative}
+#content .cast h3{padding: 1.5%}
+#content .cast dl{font-size: 35px; position: absolute; top: 11%; left: 0; width: 100%; text-align: center; opacity: 0}
+#content .cast dt{padding-bottom: 44%}
+#content .cast dl:hover{display: block; opacity: 1}
+#content .cast ul li img{width: 71.7%; transition: all .5s}
+#content .cast ul span{display: none}
+#content .cast .cbox a{color: #fff; font-size: 40px}
+
+
+#content .news .nbox{background: rgba(0,0,0,.5); padding: 30px 0}
+#content .news h3{text-align: center; padding: 1.5%}
+#content .news .nbox ul{overflow: hidden; margin-left: 1%}
+#content .news .nbox ul li{padding: 20px 0; position: relative; font-family: 'Roboto Slab', serif; float: left; background: rgba(255,255,255,.6); width: 30%; margin: 0 1.5%; color: #333}
+#content .news .nbox dl dt{text-align: center; padding: 20px}
+#content .news .nbox li span{position: absolute; top: 15px; right: 25px; font-size: 30px}
+#content .news .nbox dl dd{font-size: 17px}
+#content .news .nbox dl dd:first-of-type{text-align: left; width: 80%; margin-top: 5%; margin-left: 12%; line-height: 2em}
+#content .news .nbox dl dd:last-of-type{text-align: center; margin-top: 5%}
+/* .contactUs{margin: 0 5% 100px 5%; overflow: hidden; width: 90%} */
+
+
+
+#content .wi{padding: 40px 30px; background: #fff; color: #333; width: 100%}
+#content .wi h3{margin-bottom: 50px; margin-left: 15px; font-size: 35px}
+#content .wi h4{margin-bottom: 30px; margin-left: 18px; font-size: 25px}
+#content .wi ul{overflow: hidden; margin-bottom: 50px; margin-left: 50px}
+#content .wi ul:last-of-type{margin-bottom: 10px}
+#content .wi ul li{float: left; border: 1px solid #000; margin: 0 0 20px 20px}
+#content .wi img:hover{opacity: 0.3}
+
+
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    
+    .vlogo{margin-left: -19.5%}
+    .vlogo img{width: 90%}
+    #content h3{font-size: 50px}
+    .down img{margin-bottom: 20px; width: 75%}
+    .down ul li{text-align: center; font-size: 20px}
+    #content .about p{font-size: 20px}	
+    .tback{height: 180px}
+    #content .TRAILERS h3{padding: 50px 0}
+    #content .TRAILERS dl{font-size: 16px; margin: 15px 0 50px 0}
+    #content .cast dl {font-size: 20px}
+    #content .news h3{padding-bottom: 1.5%}
+    #content .news dl{font-size: 16px}
+    #content .news dl dd{font-size: 15px}
+    #content .news dl dt {margin-top: 30px}
+    #content .news li span {position: absolute; top: 10px; right: 20px; font-size: 25px}
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    .vlogo{margin-left: -20%}
+    .down img{margin-bottom: 15px; width: 60%}
+    .down ul li{text-align: center; font-size: 18px}
+    #content h3{font-size: 45px}
+    #content .about p{font-size: 18px}	
+    .wi{display: none}
+    .tback{background-attachment: scroll; background-size: cover; height: 150px; position: relative;}
+    #content .TRAILERS .tbox ul{margin-left: 2.5%}
+    #content .TRAILERS .tbox ul li:nth-child(3){margin-bottom: 0}
+    #content .TRAILERS .tbox ul li:nth-child(4){margin-bottom: 0}
+    #content .TRAILERS .tbox ul li:nth-child(5){display: none}
+    #content .TRAILERS .tbox ul li:nth-child(6){display: none}
+    #content .TRAILERS .tbox ul li{width: 50%}
+    #content .GALLERY h4{font-size: 22px}
+    #content .cast ul li img{width: 80%}
+    #content .cast dl {font-size: 24px; top: 10%}
+    #content .cast ul li:nth-child(3){padding-bottom: 40px}
+    #content .cast ul li:nth-child(4){padding-bottom: 40px}
+    #content .cast ul li:nth-child(5){display: none}
+    #content .cast ul li:nth-child(6){display: none}
+	#content .cast ul li:nth-child(7){display: none}
+    #content .cast ul li:nth-child(8){display: none}
+    #content .cast ul li:nth-child(9){display: none}
+    #content .cast ul li{float: left; width: 45%;  position: relative}
+    #content .cast dl{font-size: 30px; opacity: 1}
+    #content .cast dt {padding-bottom: 50%;}
+    #content .cast ul span{display: block; font-size: 35px; padding-bottom: 20px;}
+    #content .news dl dt{margin-top: 35px}
+    .down{margin-left: -80px}
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    .vlogo {margin-left: -24%}
+    .down ul li {text-align: center; font-size: 18px}
+    .down img {margin-bottom: 15px; width: 60%}
+    #content .TRAILERS dl{font-size: 14px}
+    #content h3{font-size: 40px}
+    #content .about p{font-size: 16px}	
+    .tback{height: 100px}
+    #content .TRAILERS h3{padding-top: 23px;}
+    #content .cast dl{font-size: 20px}
+    #content .cast ul {margin-left: 4%}
+    #content .cast ul li:nth-child(3){padding-bottom: 30px}
+    #content .cast ul li:nth-child(4){padding-bottom: 30px}
+    #content .cast ul span{display: block; font-size: 30px; padding-bottom: 15px}
+    #content .GALLERY h4{font-size: 20px}
+    #content .cast dl {font-size: 22px; top: 10%}
+    .down{margin-left: -70px}
+    #content .cast .cbox a{font-size: 35px}
+   
+    
+}
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+     
+    .vlogo img{width: 80%}
+    .vlogo{margin-left: -30%}
+    #content .TRAILERS dl{font-size: 13px}
+    #content h3{font-size: 35px}
+    #content .about p{font-size: 14px}	
+    #content .TRAILERS .tbox{padding: 40px 10px 20px 10px}
+    #content .TRAILERS .tbox ul li{padding-bottom: 0; float: none; width: 100%}
+    #content .TRAILERS .tbox ul {margin-left: 5%}
+    #content .TRAILERS .tbox ul li:nth-child(3){display: none}
+    #content .TRAILERS .tbox ul li:nth-child(4){display: none}
+    .tback{height: 80px}
+    #content .TRAILERS h3{text-align: center; padding-top: 16px;}
+    #content .cast dl{font-size: 25px; top: 15%; font-weight: bold}
+    #content .cast dt{padding-bottom: 50%}
+    #content .cast ul{margin-left: 5%}
+    #content .cast ul li{float: none; width: 90%; padding: 15px 0}
+    #content .cast ul li:nth-child(3){padding-bottom: 20px}
+    #content .cast ul li:nth-child(4){display: none}
+    #content .cast ul a span{font-size: 25px; margin-left: -20%}
+    #footerArea .fbox .flogo img {width: 70%; margin-top: 4px}
+    #footerArea .fbox .ftext{font-size: 25px; margin-right: 25%}
+    #content .news .nbox ul li{width: 45%; margin: 2.5%;}
+    #content .news ul li:nth-child(3){display: none}
+    #content .news .nbox ul {overflow: hidden; margin-left: 0}
+    #content .news .nbox {padding: 15px}
+    #content .news dl dd{padding-bottom: 10px}
+    #content .news dl dd:first-of-type{margin-top: 5px; margin-left: 9%;}
+    #content .news dl dd:last-of-type{margin-top: 0}
+    #content .news dl dt{padding-top: 10px; font-size: 18px; margin-top: 25px}
+    #content .GALLERY h3 {padding: 50px 0 0 0}
+    #content .GALLERY h4 {padding-top: 100px}
+    #content .GALLERY h4{font-size: 18px}
+    .down{margin-left: -65px}
+    .vlogo {margin-left: -26%}
+    #content .cast .cbox a{font-size: 30px}
+    
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap {min-width:320px; }
+    #content h3{font-size: 25px}
+    #content .about p{font-size: 12px}	
+    #content .TRAILERS .tbox ul li{margin-bottom: 35px}
+    #content .TRAILERS .tbox{padding-top: 30px}
+    #content .TRAILERS dl dt {padding: 0 0 10px 0}
+    .videoBox ul{margin-left: 20%}
+    #content .news .nbox ul li{width: 90%; padding: 5%}
+    #content .news ul li:nth-child(2){display: none}
+    #content .news ul li:nth-child(3){display: none}
+    #content .GALLERY h4{font-size: 16px}
+    #content .cast dl{font-size: 18px; top: 15%}
+    #content .cast ul li{width: 100%; padding: 10px 0}
+    #content .cast ul{margin-left: 0}
+    .down{margin-left: -68px; bottom: 3%}
+    #content .TRAILERS .tbox ul{margin-left: 1.5%}
+    #content .TRAILERS .tbox ul li img {width: 98%; padding: 0}
+    #content .TRAILERS dl{padding: 0; width: 98%}
+    #content .TRAILERS .tbox {padding-top: 15px}
+    .vlogo {margin-left: -32%}
+    #content .cast .cbox a{color: #fff; font-size: 23px}
+    
+}
+    
+ 
+
+

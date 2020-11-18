@@ -1,0 +1,167 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+
+
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" >
+
+<title>CUCKOO</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+
+
+<link rel="stylesheet" href="css/common.css">
+
+<link rel="stylesheet" href="css/main.css">
+
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/idangerous.swiper.css">
+<link rel="stylesheet" href="css/appstore.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/b1b49ca1a7.js" crossorigin="anonymous"></script> 
+<script>
+  // <![CDATA[
+  try {
+      
+      
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ 
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+ 
+ <? include "head.html"  ?>
+      
+      <div class="main">
+<!--        비주얼 영역-->
+         <div class="flexslider">
+             <ul class="slides">
+                 <li><img src="images/visual1.jpg" alt=""></li>
+                 <li><img src="images/visual2.jpg" alt=""></li>
+                 <li><img src="images/visual3.jpg" alt=""></li>
+                 <li><img src="images/visual4.jpg" alt=""></li>
+             </ul>
+         </div>
+      </div>
+      
+      <article class="content">
+          <h2 class="hidden">본문 콘텐츠 영역</h2>
+<!--          본문-->
+               <div class="product">
+                        <ul>
+                           <li>
+                               <h3>NEW</h3>
+                               <img src="images/product1s.jpg" alt="">
+                               <p>CROSS CUT<br>BLENDER</p>
+                               <p><a href="sub2_1.html"><span>→</span></a></p>
+                           </li>
+                           <li>
+                               <h3>BEST</h3>
+                               <img src="images/product2s.jpg" alt="">
+                               <p>TWIN PRESSURE <br>MASTER CHEF</p>
+                               <p><a href="sub2_2.html"><span>→</span></a></p>  
+                          </li>
+                       </ul>
+                </div>
+                
+                <div class="gs">
+                    <ul>
+                        <li>
+                            <h3>Global Service</h3>
+                            <img src="images/globalservice.jpg" alt="Global Service 이미지">
+                            <p>해외고객님의 불편을 그대로 두고 본다는 것은 쿠쿠 서비스 정신에 어긋나기 때문에, 가능한 지역에 한해 해외서비스를 실시하고 있습니다.<a href="sub4_1.html"><span>→</span></a></p>  
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="gallery">
+                       <h3>gallery</h3>
+                       <div class="swiper-container thumbs-container border-gradient">
+                           <div class="swiper-wrapper">
+                               <div class="swiper-slide"><img src="images/gallery1.jpg" alt=""></div>
+                               <div class="swiper-slide"><img src="images/gallery2.jpg" alt=""></div>
+                               <div class="swiper-slide"><img src="images/gallery3.jpg" alt=""></div>
+                               <div class="swiper-slide"><img src="images/gallery4.jpg" alt=""></div>
+                               <div class="swiper-slide"><img src="images/gallery5.jpg" alt=""></div>
+                           </div>
+                        </div>
+                </div>
+                
+                <div class="faqBox">
+                    <h3>FAQ</h3>
+                     <div class="faqContent">
+                      <ul>
+                           <li class="link1">
+                                <strong>자동절전기능 설정 모드 사용법</strong>
+                                <p>
+                                 자동절전기능이 있는 밥솥의 경우, 무작동 상태에서는 30분이 경과하면 자동절전모드로 전환됩니다. 즉시 자동절전모드로 전환을 원하신다면, 2초간 취소 버튼을 누르시면 전환이 가능합니다.
+                                </p>
+                            </li>
+                            <li class="link2">
+                                <strong>렌탈료와 계약만료일 확인법</strong>
+                                <p>렌탈료와 계약만료일은 고객센터를 통해 연락처를 확인하거나 쿠쿠모바일 홈페이지에서 조회 가능합니다.</p>
+                            </li>
+                            <li class="link3">
+                                <strong>서비스 모드 해제법</strong>
+                                <p>서비스 모드를 해제하기 위해서는 맞춤 밥맛 버튼을 눌러주시면 됩니다.</p>
+                           </li>
+                       </ul>
+                       <div class="dock">
+                               <span class="dot button1"><i class="fas fa-circle"></i></span>
+                               <span class="dot button2"><i class="fas fa-circle"></i></span>
+                               <span class="dot button3"><i class="fas fa-circle"></i></span>
+                       </div>
+                       </div>
+                </div>
+               
+      
+      </article>
+    
+ 
+<? include "foot.html"  ?>
+
+<script src="js/flexslider.js"></script>
+<script src="js/idangerous.swiper-2.0.min.js"></script>
+<script src="js/idangerous.swiper.3dflow-2.0.js"></script>
+<script src="js/appstore.js"></script> 
+<script src="js/faqMove.js"></script>
+<script>
+        $(function(){
+        });
+        $(window).load(function(){
+          $('.flexslider').flexslider                                                           ({
+            animation: "slide"
+          });
+        });
+    </script>
+
+
+</body>
+</html>

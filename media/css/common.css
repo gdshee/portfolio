@@ -1,0 +1,144 @@
+/* Reset CSS  */
+* { margin:0; padding:0; border:0; outline:0; vertical-align:top;
+-webkit-text-size-adjust:none;  }
+body {font-family: 'Shadows Into Light Two', cursive, Dotum; font-size:18px; color:#fff; background: #000}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block; }
+ul, ol, dl { list-style:none; }
+img, video {border:0; vertical-align:top; }
+a, a:link {color:#333;text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333; text-decoration:none; }
+table { border-collapse:collapse; border-spacing:0; }
+input, select { vertical-align:middle; }
+label { cursor:pointer; }
+.blind,legend,hr,caption { display:block; overflow:hidden; position:absolute; top:0; left:-1000em; }
+i,em,address { font-style:normal; font-weight:normal; }
+p,li,dd{ line-height:1.5em}
+.hidden, #skipNav{display: block; position: absolute; left: -100%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #000}
+
+
+/* 헤더 공통 영역 */  
+
+#headerArea{font-size: 28px; position:fixed; z-index: 30; height: 130px; background: rgba(0,0,0,.8); left:0; top: 0; width: 100%}	
+#headerArea	.headerInner{width: auto; position: relative}
+#headerArea h1{float: left; margin: 1.5%}
+#headerArea h1 a{color: #000; text-decoration: none; display: block; width: 234px; height: 70px; text-indent: -999px; overflow: hidden; background: url(../images/logo.png)}
+#headerArea #gnb{float: right; margin-top: 65px}
+#headerArea #gnb .mainMenu {overflow: hidden}
+#headerArea #gnb .mainMenu li{float: left; margin-right: 35px}
+#headerArea #gnb .mainMenu li:last-child{margin-right: 50px}
+#headerArea #gnb .mainMenu li a{color: #fff; text-decoration: none; display:block; padding: 10px 0}
+#headerArea #gnb .mainMenu li a:hover{color: #ccc}
+#headerArea i{color: #fff}
+#headerArea .menuOpen{position: absolute; right: 10px; top: 15px; display: none}
+
+
+
+/* 푸터 공통 영역 */
+
+#footerArea .fbox{width: 100%; height: 100px; left:0; top: 0; overflow: hidden; position: relative; background: #000}
+#footerArea .fbox .flogo{margin-left: 1.5%}
+#footerArea .fbox .flogo a{background: url(../images/logo2.png); color: #000; text-decoration: none; display: block; width: 180px; height: 54px; text-indent: -999px;}
+#footerArea .fbox ul li{float: left}
+#footerArea .fbox .fcon{margin-top: 1.2%}
+#footerArea .fbox .fsns{float: right; margin-right: 2%; overflow: hidden}
+#footerArea .fbox .fsns li{font-size: 40px}
+#footerArea .fbox .fsns li i{margin: 6px 10px 0 10px}
+#footerArea .fbox .fsns li:hover{opacity: 0.6}
+#footerArea .fbox .ftext {text-align: center; color: #7dcfdb; font-weight: bold; font-size: 40px; position: absolute; left: 50%; margin-left: -13%; top: 15%}
+
+.topMove{position: fixed; left:50%; margin-left: 44%; bottom: 160px;}
+.topMove img{padding-bottom: 10px}
+.topMove span{color: #98370a;  font-size: 30px; margin-left: 9px; font-weight: bold}
+
+
+
+/* pc */
+
+@media screen and (max-width:1500px){
+    #headerArea h1{margin: 2%}
+    #footerArea .fbox .flogo {margin: 0.5% 1.5%}
+    #footerArea .fbox .ftext{margin-left: -15%}
+}
+    
+/* 일반 pc */
+@media screen and (max-width:1280px){
+    #headerArea{height: 110px}
+    #headerArea h1{margin: 2%}
+    #headerArea #gnb {margin-top: 50px}
+    #footerArea .fbox .ftext{font-size: 35px}
+    #footerArea .fbox .fsns li {font-size: 35px}
+    .topMove{margin-left: 39%; z-index: 20}
+}
+
+/* 태블릿 */
+@media screen and (max-width:1024px) {
+    #headerArea h1 a{color: #000; text-decoration: none; display: block; width: 180px; height: 54px; text-indent: -999px; overflow: hidden; background: url(../images/logo2.png)}
+    #headerArea h1{float: left; margin-top: 22px}
+    #headerArea{height: 100px}
+    #headerArea #gnb{font-size: 25px; margin-top: 50px}
+    #footerArea .fbox{height: 80px}
+    #footerArea .fbox .flogo{margin: 10px 20px}
+    #footerArea .fbox .flogo img{width: 80%}
+    #footerArea .fbox .fsns li {font-size: 25px}
+    .topMove{margin-left: 39%; z-index: 20}
+    #footerArea .fbox .flogo a{background: url(../images/logo4.png); width: 130px; height: 39px;}
+    #footerArea .fbox .ftext {padding-top: 5px; font-size: 28px}
+ 
+}
+
+/* 소형 태블릿 */
+@media screen and (max-width:768px) {
+   #headerArea .menuOpen{ display:block; margin-right: 10px}
+   #headerArea .mainMenu{width: 100%; background: rgba(0,0,0,.8); display: none; position: absolute; top:70px; left:0}
+    #headerArea #gnb .mainMenu li{float:none; margin: 0; text-align:center; width: 100%}
+    #footerArea .fbox ul{text-align: center; overflow: hidden}
+    #footerArea .fbox ul li{}
+   #footerArea .fbox .ftext{font-size: 20px; margin-right: 22%}
+    #headerArea{height: 70px}
+    #headerArea h1{float: left; margin-top: 13px}
+   #headerArea h1 a{width: 150px; height: 45px; background: url(../images/logo3.png)}
+    .topMove{margin-left: 40%}
+    .topMove img{width: 90%}
+    .topMove span {font-size: 25px}
+    #headerArea h1{margin: 13px 20px}
+    #footerArea .fbox .fsns {position: absolute; top: 10px; right: 10px}
+    #footerArea .fbox .fsns li{font-size: 30px}
+    #footerArea .fbox .ftext {margin-left: -13%; padding-top: 10px}
+    #footerArea .fbox .flogo {margin: 14px 20px}
+	
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    .topMove span {font-size: 22px}
+    .topMove img {padding-bottom: 5px; width: 85%}
+    .topMove{margin-left: 37%}
+    #headerArea h1{margin: 13px 20px}
+    #footerArea .fbox .ftext{display: none}
+    #footerArea .fbox{height: 70px}
+    #footerArea .fbox .fsns li{font-size: 35px}
+    
+
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	#wrap { min-width:320px}
+    
+    #footerArea .fbox .flogo{width: 40%}
+    #footerArea .fbox .ftext{font-size: 10px; margin-left: 0}
+    .vlogo {margin-left: -32%}
+    .topMove {margin-left: 31%}
+    .topMove span {font-size: 20px}
+    #headerArea h1{margin: 14px 16px}
+    #footerArea .fbox .flogo a{background: url(../images/logo5.png); width: 110px; height: 33px;}
+    #footerArea .fbox .fsns li{font-size: 25px}
+    #footerArea .fbox .fsns li i{margin: 6px}
+    #footerArea .fbox .flogo{margin: 13px}
+    #footerArea .fbox {height: 60px}
+    #footerArea .fbox .fsns{right: 0}
+    
+    #headerArea #gnb{font-size: 20px}
+
+}

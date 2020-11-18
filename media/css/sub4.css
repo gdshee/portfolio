@@ -1,0 +1,115 @@
+ .imgBox #bimgBG{display: block; position: fixed; top: 50%; left: 50%; width: auto; min-width: 100%; height: auto; min-height: 100%; transform: translateX(-50%) translateY(-50%); z-index: -100}
+.imgBox .imgTitle{position: absolute; left: 50%; top: 25%; transform: translateX(-50%); text-align: center}
+.imgBox .imgTitle span{color:#fff; font-size: 100px; display: block; text-shadow: 2px 2px 2px rgba(0,0,0,1)}
+
+.down{display: block; position: absolute; left:50%; margin-left: -90px; bottom: 15%; animation:ani 1s infinite  alternate}
+
+@keyframes ani {0% {transform:scale(1); opacity:1; color:#fff} 100% {transform:scale(1.2); opacity:0.8; color:#888}}
+.down img{margin-bottom: 20px}
+.down ul li{text-align: center; font-size: 25px}
+
+#simgBG{position:fixed; left:50%; top:50%; width:auto; min-width:100%; height:auto; min-height:100%; transform:translateX(-50%) translateY(-50%); z-index:-100; display:none}
+
+#content{background: rgba(0,0,0,.8); padding: 4%; text-align: center}
+#content .wrapper .masonry dl{font-family: 'Roboto Slab', serif; line-height: 1.5em; font-weight: 300}
+#content .wrapper .masonry dl dd img{transition: all .5s; filter: grayscale(100%); width: 80%}
+#content .wrapper .masonry dl dd img:hover{filter: none}
+/*#content .wrapper .masonry dl dd:nth-of-type(2){width: 80%; margin-left: 10%}*/
+#content .wrapper .masonry dl dd:nth-of-type(3){color: #999}
+#content .wrapper .masonry dl dt{padding-bottom: 4%; font-size: 20px}
+#content .wrapper .masonry dl dd{padding-bottom: 4%; font-size: 18px}
+#content .wrapper .masonry dl dd a{font-size: 16px}
+
+.wrapper {
+    width: 100%;
+    margin: 3em auto;
+}
+
+.masonry {
+    margin: 1.5em 0;
+    padding: 0;
+    column-count: 4;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.box1{height:540px; background:#7dcfdb; opacity: 0.9}
+.box2{height:520px; background:#7dcfdb; opacity: 0.9}
+.box3{height:500px; background:#7dcfdb; opacity: 0.9}
+     
+
+@media only screen and (max-width: 1280px) {
+    .masonry {
+    
+        column-count: 4;
+    }
+}  
+
+ @media only screen and (max-width: 1024px) {
+    .masonry {
+      
+        column-count: 3;
+    }
+     
+     .box1{height:500px; background:#7dcfdb; opacity: 0.9}
+.box2{height:480px; background:#7dcfdb; opacity: 0.9}
+.box3{height:460px; background:#7dcfdb; opacity: 0.9}
+     #content .wrapper .masonry dl dt{font-size: 18px}
+    #content .wrapper .masonry dl dd{font-size: 16px}
+    #content .wrapper .masonry dl dd a{font-size: 14px}
+}
+     
+@media only screen and (max-width: 768px) {
+    .masonry {
+     
+        column-count: 2;
+    }
+    
+    .imgBox .imgTitle span{font-size: 90px}
+}
+     
+@media only screen and (max-width: 640px) {
+    .masonry {
+  
+        column-count: 1;
+    }
+    
+    .box1{height:300px; background:#7dcfdb; opacity: 0.9}
+.box2{height:280px; background:#7dcfdb; opacity: 0.9}
+.box3{height:260px; background:#7dcfdb; opacity: 0.9}
+    
+    .imgBox .imgTitle span{font-size: 80px}
+    #content .wrapper .masonry dl dd img{display: none}
+    #content .wrapper .masonry dl dt{padding-bottom: 3%; font-size: 20px}
+    #content .wrapper .masonry dl dd{padding-bottom: 3%; font-size: 18px}
+    #content .wrapper .masonry dl dd a{font-size: 16px}
+    
+}
+     
+     
+     
+/* 최소의 사이즈는 320px 고정 */
+@media screen and (max-width:480px) {
+    .masonry {
+  
+        column-count: 1;
+    }
+    
+    .imgBox .imgTitle span{font-size: 60px}
+    #content .wrapper .masonry dl dd:nth-of-type(2){width: 90%; margin-left: 5%}
+    #content .wrapper .masonry dl dt{font-size: 18px}
+    #content .wrapper .masonry dl dd{font-size: 16px}
+    #content .wrapper .masonry dl dd a{font-size: 14px}
+}
+     

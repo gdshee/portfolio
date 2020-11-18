@@ -1,0 +1,24 @@
+#content .content_area{width: 1100px; margin: 0 auto; text-align: justify; padding: 250px 0 130px 0; font-family: 'Roboto', sans-serif; font-size: 18px}
+#content .content_area span{color: #ee7c67}
+
+.title_area ul{overflow: hidden; margin: 0 auto;}
+.title_area ul li{width: 12.5%; float: left; text-align: center}
+.title_area ul li a{display: block; padding: 15px 0; font-size: 19px; font-weight: 600; border-top: 1px solid #C9AECF; border-bottom: 1px solid #C9AECF}
+.title_area ul li a:hover{font-weight: bold; letter-spacing: -1px; background: #C9AECF; color: #fff}
+#content .subNav.navOn{position: fixed; width: 100%;
+            z-index:60; left:0; top: 0; background:#fff}
+
+#content .subNav li a.spy{background: #C9AECF; color: #fff}
+#headerArea.headerHide {}
+
+#content ul{overflow: hidden}
+#content .content_area dt{font-size: 32px; font-weight: 600; border-bottom: 2px solid #9A4388; padding-bottom: 5px; width: 1100px; border-bottom: 2px solid #9A4388}
+#content .content_area dl dd{margin-bottom: 20px; line-height: 2.5em}
+#content .content_area dl dd:nth-of-type(2){margin-top: 100px}
+#content .content_area dl dd img{margin: 50px 0 30px 0}
+#content .content_area li{margin-bottom: 200px}
+#content .content_area ul .L{float: left; text-align: left}
+#content .content_area ul .R{float: right; text-align: right}
+
+
+        

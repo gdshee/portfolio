@@ -1,0 +1,14 @@
+.content_area{margin-bottom: 200px}
+.content_area ul{font-family: 'Nanum Gothic', sans-serif; width: 1000px; margin: 0 auto; overflow: hidden; position: relative}
+.content_area ul li dl{float: right; overflow: hidden}
+.content_area ul li:nth-of-type(2) dl{padding: 150px 0}
+.content_area ul li dl dt{font-size: 28px; font-weight: 400; margin: 20px 0;  padding-bottom: 15px; border-bottom: 1px solid #ccc; width: 330px}
+.content_area ul li dl dd{font-size: 16px; font-weight: 400; color: #666; line-height: 3em}
+.content_area ul li dl dd i{font-size: 25px; float: right; padding-top: 40px}
+.content_area ul li:nth-of-type(2) img{float: left; padding: 150px 0}
+
+.box{width: 100%; height: 100%; background: rgba(0,0,0,.8); position:fixed; left: 0; top: 0; display: none; z-index: 60}
+.content_area ul li .product_con{line-height: 2em; text-align: justify; width: 800px; padding: 50px 30px 20px 30px; position: fixed; left: 50%; margin-left: -420px; top: 50%; margin-top: -300px; overflow: hidden; display: none; z-index: 70; background: #fff}
+.content_area ul li .product_con p{margin: 20px 0; font-size: 14.5px}
+.content_area ul li:nth-of-type(2) .product_con img{padding: 0; margin: 0 0 20px 0;}
+.content_area ul li .product_con .closeBtn{position: absolute; top: 10px; right: 10px; font-size: 25px}

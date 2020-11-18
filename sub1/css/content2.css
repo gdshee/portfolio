@@ -1,0 +1,28 @@
+#content .title_area h2{margin-bottom: 120px}
+#content .title_area .ci{background: #f5f5f5; width: 1000px; height: 300px; margin-left: 100px}
+#content .title_area .ci img{margin: 120px 0}
+
+#content .content_area{text-align: justify; margin-left: 12%; margin-bottom: 200px; line-height: 2em; font-family: 'Nanum Gothic', sans-serif; font-weight:400; font-size: 18px; color: #999}
+#content .content_area h4{font-family: 'Roboto', sans-serif; font-weight: 600; font-size: 22px; color: #666; margin-bottom: 25px}
+#content .content_area h3{font-family: 'Roboto', sans-serif; font-weight: 600; color: #333; font-size: 22px; margin-top: 150px; margin-bottom: 25px}
+
+#content .content_area .mark p{margin-bottom: 70px}
+#content .content_area .mark h3 span{color: #e94d25}
+
+#content .content_area .color{font-family: 'Roboto', sans-serif; overflow: hidden; margin: 120px 0 350px 0}
+#content .content_area .color section img{float: left; margin-right: 20px}
+#content .content_area .color section dl{float: right; font-size: 14px; color: #999; line-height: 1.5em; margin-top: 5px}
+#content .content_area .color section dl dt{margin-bottom: 5px; font-weight: 600; font-size: 18px}
+#content .content_area .color section dl dd{font-weight: 400}
+#content .content_area .color section:first-child{overflow: hidden; float: left; margin-right: 120px}
+#content .content_area .color section:last-child{overflow: hidden; float: left}
+#content .content_area .color section:last-child .sub1{float: left; margin-right: 70px}
+#content .content_area .color section:last-child .sub2{float: right}
+#content .content_area .color section dt{color: #595754}
+#content .content_area .color section .sub1 dt{color: #ccc}
+#content .content_area .color section .sub2 dt{color: #e94d25}
+
+
+
+
+
